@@ -1,0 +1,13 @@
+digraph "MethodAbsScan"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node7 [label="MethodAbsScan",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" arg" ,fontname="Helvetica"];
+  Node8 [label="OptParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_opt_parser.html"];
+  Node9 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" combiner" ,fontname="Helvetica"];
+  Node9 [label="Combiner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_combiner.html"];
+  Node8 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" arg" ,fontname="Helvetica"];
+  Node10 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pvalueCorrector" ,fontname="Helvetica"];
+  Node10 [label="PValueCorrection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_p_value_correction.html"];
+}

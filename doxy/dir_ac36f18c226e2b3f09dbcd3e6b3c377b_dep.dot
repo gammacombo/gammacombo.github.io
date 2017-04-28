@@ -1,0 +1,11 @@
+digraph "/Users/matt/Scratch/lhcb/CombinationCode/gammacombo/tutorial/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_07c2df013bb20677b8e65a9f18968d2c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="tutorial" fontname="Helvetica", fontsize="10", URL="dir_07c2df013bb20677b8e65a9f18968d2c.html"]
+  dir_ac36f18c226e2b3f09dbcd3e6b3c377b [shape=box, label="include", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ac36f18c226e2b3f09dbcd3e6b3c377b.html"];
+  }
+  dir_4270bfced15e0e73154b13468c7c9ad9 [shape=box label="core" fillcolor="white" style="filled" color="red" URL="dir_4270bfced15e0e73154b13468c7c9ad9.html"];
+  dir_ac36f18c226e2b3f09dbcd3e6b3c377b->dir_4270bfced15e0e73154b13468c7c9ad9 [headlabel="9", labeldistance=1.5 headhref="dir_000007_000000.html"];
+}

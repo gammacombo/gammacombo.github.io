@@ -1,0 +1,14 @@
+digraph "/Users/matt/Scratch/lhcb/CombinationCode/gammacombo/tutorial" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_07c2df013bb20677b8e65a9f18968d2c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_07c2df013bb20677b8e65a9f18968d2c.html"];
+    dir_07c2df013bb20677b8e65a9f18968d2c [shape=plaintext label="tutorial"];
+    dir_ac36f18c226e2b3f09dbcd3e6b3c377b [shape=box label="include" color="black" fillcolor="white" style="filled" URL="dir_ac36f18c226e2b3f09dbcd3e6b3c377b.html"];
+    dir_e3af752e1f6c91ec40474654ef7468b7 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_e3af752e1f6c91ec40474654ef7468b7.html"];
+  }
+  dir_4270bfced15e0e73154b13468c7c9ad9 [shape=box label="core" fillcolor="white" style="filled" color="red" URL="dir_4270bfced15e0e73154b13468c7c9ad9.html"];
+  dir_ac36f18c226e2b3f09dbcd3e6b3c377b->dir_4270bfced15e0e73154b13468c7c9ad9 [headlabel="9", labeldistance=1.5 headhref="dir_000007_000000.html"];
+  dir_e3af752e1f6c91ec40474654ef7468b7->dir_ac36f18c226e2b3f09dbcd3e6b3c377b [headlabel="9", labeldistance=1.5 headhref="dir_000008_000007.html"];
+}

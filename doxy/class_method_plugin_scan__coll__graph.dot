@@ -1,0 +1,18 @@
+digraph "MethodPluginScan"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="MethodPluginScan",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="MethodAbsScan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_method_abs_scan.html"];
+  Node6 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" arg" ,fontname="Helvetica"];
+  Node6 [label="OptParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_opt_parser.html"];
+  Node7 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" combiner" ,fontname="Helvetica"];
+  Node7 [label="Combiner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_combiner.html"];
+  Node6 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" arg" ,fontname="Helvetica"];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" pvalueCorrector" ,fontname="Helvetica"];
+  Node8 [label="PValueCorrection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_p_value_correction.html"];
+  Node9 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" profileLH\nparevolPLH" ,fontname="Helvetica"];
+  Node9 [label="MethodProbScan",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_method_prob_scan.html"];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

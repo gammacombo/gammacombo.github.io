@@ -1,0 +1,14 @@
+digraph "/Users/matt/Scratch/lhcb/CombinationCode/gammacombo/core/include/ParameterEvolutionPlotter.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node85 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/include\l/ParameterEvolutionPlotter.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node85 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/src/Parameter\lEvolutionPlotter.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_parameter_evolution_plotter_8cpp.html"];
+  Node85 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/include\l/GammaComboEngine.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_gamma_combo_engine_8h.html"];
+  Node87 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/src/FileName\lBuilder.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_file_name_builder_8cpp.html"];
+  Node87 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/src/GammaCombo\lEngine.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_gamma_combo_engine_8cpp.html"];
+}

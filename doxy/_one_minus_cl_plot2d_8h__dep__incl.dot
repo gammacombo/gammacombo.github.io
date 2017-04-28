@@ -1,0 +1,14 @@
+digraph "/Users/matt/Scratch/lhcb/CombinationCode/gammacombo/core/include/OneMinusClPlot2d.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node90 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/include\l/OneMinusClPlot2d.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node90 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/src/OneMinus\lClPlot2d.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_one_minus_cl_plot2d_8cpp.html"];
+  Node90 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/include\l/GammaComboEngine.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_gamma_combo_engine_8h.html"];
+  Node92 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/src/FileName\lBuilder.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_file_name_builder_8cpp.html"];
+  Node92 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/src/GammaCombo\lEngine.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_gamma_combo_engine_8cpp.html"];
+}

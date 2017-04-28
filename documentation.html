@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Gamma Combo Documentation</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/lightbox/dist/ekko-lightbox.min.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="body-blue">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                          <!--<span aria-hidden="true" class="icon_documents icon"></span>-->
+                            <span class="text-highlight">Gamma</span><span class="text-bold">Combo</span>
+                        </a>
+                    </h1>
+                </div><!--//branding-->
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Documentation</li>
+                </ol>
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"><span aria-hidden="true" class="icon icon_documents"></span> Documentation</h1>
+                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: Jan 25th, 2016</div>
+                    <div class=doc-content">For a quick start guide go to the <a href="start.html">quick start page</a> </div>
+                    <div class=doc-content">For more detailed examples go to the <a href="examples.html">examples page</a> </div>
+                </div><!--//doc-header-->
+                <div class="doc-body">
+                    <div class="doc-content">
+                        <div class="content-inner">
+                            <section id="manual" class="doc-section">
+                                <h2 class="section-title">Users manual</h2>
+                                <div class="section-block">
+                                  <p>Most of the code is documented in considerable detail in the users manual</p>
+                                  <a class="btn btn-green" href="manual.pdf" target="_blank"><i class="fa fa-download"></i>Download Users Manual</a>
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+                            <section id="doxygen" class="doc-section">
+                                <h2 class="section-title">Doxygen</h2>
+                                <div id="projects" class="section-block">
+                                  <p> Eventually it would be nice to display the doxygen dynamically on this page however for now it has been compiled and can be found <a href="doxy/index.html">here</a> </p>
+                                  <a class="btn btn-green" href="doxy/index.html" target="_blank"><i class="fa fa-eye"></i>Browse Doxygen</a>
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+                            <section id="structure" class="doc-section">
+                                <h2 class="section-title">Code Structure</h2>
+                                <div id="projects" class="section-block">
+                                  <p> The code structure can be a little bit confusing but it does have a logic behind it. </p>
+                                  <ul>
+                                    <li> The top level directory <code>gammacombo</code> contains all the <b>public</b> parts of the code</li>
+                                    <li> The bulk of the framework (written in C++) lives in a subdirectory called <code>core</code> </li>
+                                    <li> For each measurement / combination you want to perform you should create a subdirectory within the top level <code>gammacombo</code></li>
+                                    <li> An example is already provided called <code>tutorial</code> </li>
+                                    <li> Several measurements / combinations are performed by this code but they are held <b>privately</b> </li>
+                                    <li> If you are a member of the LHCb collaboration you can access them at the CERN GitLab group <a href="https://gitlab.cern.ch/gammacombo">gammacombo</a> </li>
+                                    <li> Rather confusingly one of them is also called <code>gammacombo</code> - this performs the LHCb, HFlav and PDG combinations of CKM angle &gamma; </li>
+                                  </ul>
+                                  <div class="screenshot-holder">
+                                      <a href=""><img class="img-responsive" src="assets/images/structure.pdf" alt="structure" /></a>
+                                  </div>
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+                            <section id="making" class="doc-section">
+                                <h2 class="section-title">Making your own combiner</h2>
+                                <div id="projects" class="section-block">
+                                  <p> In order to make your own combiner you will need to create your own subdirectory
+                                  (following the strucutre above) and then inside this:  </p>
+                                  <ul>
+                                    <li> Create the subdirectories <code>include</code> <code>src</code> <code>main</code> </li>
+                                    <li> Create a <code>CMakeLists.txt</code> to instruct the compiler (copy the example from tutorial) </li>
+                                    <li> Your parameters should be defined in a class which inherits from <code>ParametersAbs</code> - the
+                                      header should go in the <code>include</code> directory and the implementation in the <code>src</code>
+                                    directory </li>
+                                    <li> The class(es) defining your PDFs should inherit from <code>PDF_Abs</code> - with the header and implementation
+                                      in <code>include</code> and <code>src</code> respecitively </li>
+                                    <li> The executable which you will eventually run should be put in the <code>main</code> directory</li>
+                                    <li> You can have your own ROOT or RooFit classes which requires a slight modification to the
+                                      <code>CMakeLists.txt</code> file (just edit / uncomment the relevant lines given in the tutorial) </li>
+                                  </ul>
+                                  <a class="btn btn-green" href="doxy/index.html" target="_blank"><i class="fa fa-eye"></i>Browse Doxygen</a>
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                    <div class="doc-sidebar">
+                        <nav id="doc-nav">
+                            <ul id="doc-menu" class="nav doc-menu hidden-xs" data-spy="affix">
+                                <li><a class="scrollto" href="#manual">Users Manual</a></li>
+                                <li><a class="scrollto" href="#doxygen">Doxygen</a></li>
+                                <li><a class="scrollto" href="#structure">Code Structure</a></li>
+                                <li><a class="scrollto" href="#making">Making your own</a></li>
+                            </ul><!--//doc-menu-->
+                        </nav>
+                    </div><!--//doc-sidebar-->
+                </div><!--//doc-body-->
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+
+    </div><!--//page-wrapper-->
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Template design by <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a></small>
+
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
+

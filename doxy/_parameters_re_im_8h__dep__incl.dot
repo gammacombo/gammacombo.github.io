@@ -1,0 +1,16 @@
+digraph "/Users/matt/Scratch/lhcb/CombinationCode/gammacombo/ReImPlots/include/ParametersReIm.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node40 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/ReImPlots\l/include/ParametersReIm.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/ReImPlots\l/include/PDF_DsK.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_d_f___ds_k_8h.html"];
+  Node41 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/ReImPlots\l/src/PDF_DsK.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_d_f___ds_k_8cpp.html"];
+  Node40 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/ReImPlots\l/include/PDF_DsK_gamma.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_d_f___ds_k__gamma_8h.html"];
+  Node43 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/ReImPlots\l/src/PDF_DsK_gamma.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_d_f___ds_k__gamma_8cpp.html"];
+  Node40 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/ReImPlots\l/src/ParametersReIm.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_parameters_re_im_8cpp.html"];
+}

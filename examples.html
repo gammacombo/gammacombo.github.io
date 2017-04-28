@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Examples &middot; GammaCombo</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/lightbox/dist/ekko-lightbox.min.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="body-blue">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <span class="text-highlight">Gamma</span><span class="text-bold">Combo</span>
+                        </a>
+                    </h1>
+                </div><!--//branding-->
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active">Examples</li>
+                </ol>
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"><span aria-hidden="true" class="icon icon_datareport_alt"></span> Examples</h1>
+                    <div class="meta"><i class="fa fa-clock-o"></i> Last updated: Jan 25th, 2016</div>
+                    <div class=doc-content">For a quick start guide go to the <a href="start.html">quick start page</a> </div>
+                    <div class=doc-content">For more detailed examples go to the <a href="examples.html">examples page</a> </div>
+                </div><!--//doc-header-->
+                <div class="doc-body">
+                    <div class="doc-content">
+                        <div class="content-inner">
+                          <p>This page details how to reproduce some of the standard results which use the <span style="color: #58bbee;">Gamma<b>Combo</b></span> framework</p>
+                            <section id="instructions" class="doc-section">
+                                <h2 class="section-title">Instructions for users</h2>
+                                <div id="prerequisites" class="section-block">
+                                  <h3 class="block-title">Pre-requisites</h3>
+                                  <p> The following dependencies are required </p>
+                                  <ul>
+                                    <li>cmake - available <a href="https://cmake.org">here</a>
+                                    <li>ROOT (min v5.34.23) - available <a href="https://root.cern.ch">here</a> - ROOT5 and ROOT6 are both compatible
+                                      - needs to be compiled with RooFit</li>
+                                    <li>RooFit (min v3.60) - see above</li>
+                                    <li>Boost (min 1.57.0) - available <a href="http://www.boost.org">here</a></li>
+                                    <li>Doxygen - this is <b>OPTIONAL</b> but will build documentation for you - available
+                                      <a href="http://www.stack.nl/~dimitri/doxygen/">here</a></li>
+                                  </ul>
+                                </div>
+                                <div id="core" class="section-block">
+                                  <h3 class="block-title">Getting the core of the package</h3>
+                                  <p> The core of the package is stored publically on github under the <a href="github.com/gammacombo/gammacombo.git">gammacombo</a>
+                                  organisation </p>
+                                  <p> Please do not push any changes here but rather push them to your own fork and make a pull request </p>
+                                  <p> An example subpackage is provided with the core called <code>tutorial</code>. To try running it use the
+                                  <a href="start.html">quick start guide</a> </p>
+                                  <p> In order to access one of the subpackages see the section below</p>
+                                  <a href="start.html" class="btn btn-green"><i class="fa fa-eye"></i>Quick Start Instructions</a>
+                                </div>
+                                <div id="subpackages" class="section-block">
+                                  <h3 class="block-title">Getting a subpackage</h3>
+                                  <p> Each subpackage is held privately on the CERN GitLab server under the <a href="gitlab.cern.ch/gammacombo">gammacombo</a> group </p>
+                                  <p> In order to access these packages you will be required to:</p>
+                                  <ul>
+                                    <li> get a CERN computing account </li>
+                                    <li> get access as a developer of the relevant subpackage (do this by <a href="contact.html">contacting us</a>)</li>
+                                  </ul>
+                                  <div class="code-block">
+                                    <h6>Get the core</h6>
+                                    <pre><code class="language-bash" style="border: 1px;">git clone git@github.com:gammacombo/gammacombo.git
+cd gammacombo
+git checkout development</pre></code>
+                                    <h6>Get the subpackage you want (in this example it's the Vub_Vcb subpackage)</h6>
+                                    <pre><code class="language-bash" style="border: 1px;">git clone ssh://git@gitlab.cern.ch:7999/gammacombo/Vub_Vcb.git</pre></code>
+                                    <h6>Edit the compiler configuration</h6>
+                                    <pre><code class="language-bash" style="border: 1px;">vim cmake/combiners.cmake  # make sure the Vub_Vcb subpackage is uncommented</pre></code>
+                                    <h6>Compile the code</h6>
+                                    <pre><code class="language-bash" style="border: 1px;">mkdir build
+cd build
+cmake ..
+make -j8 install
+cd ..              # don't forget this as it will take you back up to top level</pre></code>
+                                    <h6>Run the code</h6>
+                                    <pre><code class="language-bash" style="border: 1px;">cd Vub_Vcb         # now change into the subpackage directory (make sure you're NOT in the build directory)
+bin/Vub_Vcb</pre></code>
+                                </div>
+                            </section>
+                            <section id="reproduce" class="doc-section">
+                              <h2 class="section-title">Reproducing Results</h2>
+                              <div class="section-block">
+                                <p>The following section will give specific instructions on how to reproduce specific results.</p>
+                                <p>This usually takes advantage of a shell script within each subpackage called <code>makeplots.sh</code>.
+                                They should take about 10-20 minutues to run on a local machine and please be aware these might not always
+                                be the most up to date versions.</p>
+                              </div>
+                              <div id="vub" class="section-block">
+                                <h3 class="block-title">Right handed currents (Vub)</h3>
+                                <p> Will produce this plot</p>
+                                <div class="screenshot-holder">
+                                  <a href="assets/images/Vub.pdf" target="_blank"><img class="img-responsive" src="assets/images/Vub.pdf" alt="Combination Tutorial"/></a>
+                                  <a class="mask" href="assets/images/Vub.pdf" target="_blank" style="width: 62.5%;"></a>
+                                </div>
+                                <div class="code-block">
+                                  <pre><code class="language-bash" style="border: 1px;">git clone git@github.com:gammacombo/gammacombo.git
+cd gammacombo
+git checkout development     # it may not compile without the latest developments
+git clone ssh://git@gitlab.cern.ch:7999/gammacombo/belle2_Vub.git
+vim cmake/combiners.cmake    # make sure you have uncommented "belle2_Vub" from this file
+mkdir build
+cd build
+cmake ..
+make -j8 install
+cd ../belle2_Vub             # this is easily forgotten and important
+./makeplots.sh               # will write to plots/pdf/belle2_Vub_Xu_Pi_LbDiff_XuPiMilcLbDiff_epsR_VubL.pdf (takes about 10 mins)</pre></code>
+                                </div>
+                              </div>
+                              <div id="gamma" class="section-block">
+                                <h3 class="block-title">CKM angle &gamma;</h3>
+                                <p> Will produce this plot</p>
+                                <div class="screenshot-holder">
+                                  <a href="assets/images/gamma.pdf" target="_blank"><img class="img-responsive" src="assets/images/gamma.pdf" alt="Combination Tutorial"/></a>
+                                  <a class="mask" href="assets/images/gamma.pdf" target="_blank" style="width: 62.5%;"></a>
+                                </div>
+                                <div class="code-block">
+                                  <pre><code class="language-bash" style="border: 1px;">git clone git@github.com:gammacombo/gammacombo.git
+cd gammacombo
+git checkout development     # it may not compile without the latest developments
+git clone ssh://git@gitlab.cern.ch:7999/gammacombo/gammacombo.git
+vim cmake/combiners.cmake    # make sure you have uncommented "gammacombo" from this file
+mkdir build
+cd build
+cmake ..
+make -j8 install
+cd ../gammacombo             # this is easily forgotten and important
+./makeplots.sh               # will write to plots/pdf/gammacombo_dsk_cfit_ckm2014robustNoDhpipi_ckm2014fullNoDhpipi_g.pdf</pre></code>
+                                </div>
+                              </div>
+                              <div id="charm" class="section-block">
+                                <h3 class="block-title">Charm Mixing</h3>
+                                <p> Will produce this plot</p>
+                                <div class="screenshot-holder">
+                                  <a href="assets/images/hfag.pdf" target="_blank"><img class="img-responsive" src="assets/images/hfag.pdf" alt="Combination Tutorial"/></a>
+                                  <a class="mask" href="assets/images/hfag.pdf" target="_blank" style="width: 62.5%;"></a>
+                                </div>
+                                <div class="code-block">
+                                  <pre><code class="language-bash" style="border: 1px;">git clone git@github.com:gammacombo/gammacombo.git
+cd gammacombo
+git checkout development     # it may not compile without the latest developments
+git clone ssh://git@gitlab.cern.ch:7999/gammacombo/hfag.git
+vim cmake/combiners.cmake    # make sure you have uncommented "hfag" from this file
+mkdir build
+cd build
+cmake ..
+make -j8 install
+cd ../hfag                   # this is easily forgotten and important
+./makeplots.sh               # will write to plots/pdf/hfag_Apr2013CPVA_x_y.pdf</pre></code>
+                                </div>
+                              </div>
+                              <div id="biggamma" class="section-block">
+                                <h3 class="block-title">&Gamma;s vs &Delta;&Gamma;s</h3>
+                                <p> Will produce this plot</p>
+                                <div class="screenshot-holder">
+                                  <a href="assets/images/GsDGs.pdf" target="_blank"><img class="img-responsive" src="assets/images/GsDGs.pdf" alt="Combination Tutorial"/></a>
+                                  <a class="mask" href="assets/images/GsDGs.pdf" target="_blank" style="width: 62.5%;"></a>
+                                </div>
+                                <div class="code-block">
+                                  <pre><code class="language-bash" style="border: 1px;">git clone git@github.com:gammacombo/gammacombo.git
+cd gammacombo
+git checkout development     # it may not compile without the latest developments
+git clone ssh://git@gitlab.cern.ch:7999/gammacombo/biggammacombo.git
+vim cmake/combiners.cmake    # make sure you have uncommented "biggammacombo" from this file
+mkdir build
+cd build
+cmake ..
+make -j8 install
+cd ../biggammacombo          # this is easily forgotten and important
+./makeplots.sh               # will write to plots/pdf/biggammacombo_CP-odd_CP-even_Flav-Spec_JpsiKK_LHCb-Comb_Gamma_s_DeltaGamma_s.pdf</pre></code>
+                                </div>
+                              </div>
+                              <div id="vubvcb" class="section-block">
+                                <h3 class="block-title">Vcb vs Vub</h3>
+                                <p> Will produce this plot</p>
+                                <div class="screenshot-holder">
+                                  <a href="assets/images/VubVcb.pdf" target="_blank"><img class="img-responsive" src="assets/images/VubVcb.pdf" alt="Combination Tutorial"/></a>
+                                  <a class="mask" href="assets/images/VubVcb.pdf" target="_blank" style="width: 62.5%;"></a>
+                                </div>
+                                <div class="code-block">
+                                  <pre><code class="language-bash" style="border: 1px;">git clone git@github.com:gammacombo/gammacombo.git
+cd gammacombo
+git checkout development     # it may not compile without the latest developments
+git clone ssh://git@gitlab.cern.ch:7999/gammacombo/Vub_Vcb.git
+vim cmake/combiners.cmake    # make sure you have uncommented "Vub_Vcb" from this file
+mkdir build
+cd build
+cmake ..
+make -j8 install
+cd ../Vub_Vcb                # this is easily forgotten and important
+./makeplots.sh               # will write to plots/pdf/VubVcb.pdf</pre></code>
+                                </div>
+                              </div>
+                            </section>
+
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                    <div class="doc-sidebar">
+                        <nav id="doc-nav">
+                            <ul id="doc-menu" class="nav doc-menu hidden-xs" data-spy="affix">
+                                <li>
+                                  <a class="scrollto" href="#instructions">Instructions for users</a>
+                                  <ul class="nav doc-sub-menu">
+                                    <li><a class="scrollto" href="#prerequisites">Pre-requisites</a></li>
+                                    <li><a class="scrollto" href="#core">Getting the core</a></li>
+                                    <li><a class="scrollto" href="#subpackages">Getting a subpackage</a></li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  <a class="scrollto" href="#reproduce">Reproducing Results</a>
+                                  <ul class="nav doc-sub-menu">
+                                    <li><a class="scrollto" href="#vub">Right handed currents (Vub)</a></li>
+                                    <li><a class="scrollto" href="#gamma">CKM angle &gamma;</a></li>
+                                    <li><a class="scrollto" href="#charm">Charm Mixing</a></li>
+                                    <li><a class="scrollto" href="#biggamma">&Gamma;s vs &Delta;&Gamma;s</a></li>
+                                    <li><a class="scrollto" href="#vubvcb">Vcb vs Vub</a></li>
+                                  </ul>
+                                </li>
+                            </ul><!--//doc-menu-->
+                        </nav>
+                    </div><!--//doc-sidebar-->
+                </div><!--//doc-body-->
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+
+
+    </div><!--//page-wrapper-->
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Template designed by <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a></small>
+
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
+

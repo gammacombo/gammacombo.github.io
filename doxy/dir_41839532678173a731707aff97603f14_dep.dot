@@ -1,0 +1,11 @@
+digraph "/Users/matt/Scratch/lhcb/CombinationCode/gammacombo/ReImPlots/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_01c72b399cf40d9b5c97253726061a5b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ReImPlots" fontname="Helvetica", fontsize="10", URL="dir_01c72b399cf40d9b5c97253726061a5b.html"]
+  dir_41839532678173a731707aff97603f14 [shape=box, label="include", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_41839532678173a731707aff97603f14.html"];
+  }
+  dir_4270bfced15e0e73154b13468c7c9ad9 [shape=box label="core" fillcolor="white" style="filled" color="red" URL="dir_4270bfced15e0e73154b13468c7c9ad9.html"];
+  dir_41839532678173a731707aff97603f14->dir_4270bfced15e0e73154b13468c7c9ad9 [headlabel="5", labeldistance=1.5 headhref="dir_000004_000000.html"];
+}

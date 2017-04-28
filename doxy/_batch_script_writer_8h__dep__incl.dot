@@ -1,0 +1,14 @@
+digraph "/Users/matt/Scratch/lhcb/CombinationCode/gammacombo/core/include/BatchScriptWriter.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node76 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/include\l/BatchScriptWriter.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node76 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/src/BatchScript\lWriter.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_batch_script_writer_8cpp.html"];
+  Node76 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/include\l/GammaComboEngine.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_gamma_combo_engine_8h.html"];
+  Node78 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/src/FileName\lBuilder.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_file_name_builder_8cpp.html"];
+  Node78 -> Node80 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 [label="/Users/matt/Scratch\l/lhcb/CombinationCode\l/gammacombo/core/src/GammaCombo\lEngine.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_gamma_combo_engine_8cpp.html"];
+}

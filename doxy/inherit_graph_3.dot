@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="CLIntervalPrinter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_c_l_interval_printer.html",tooltip="Class that prints CL intervals and saves them to disk. "];
+}
