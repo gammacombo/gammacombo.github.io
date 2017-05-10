@@ -155,9 +155,9 @@ bin/tutorial -c 6 --var a_gaus --var b_gaus --scanrange -3:3 --scanrangey -3:3 #
                                       <h6>Make the workspace for input</h6>
                                       <pre><code class="language-bash" style="border: 1px;">bin/tutorial_dataset_build_workspace        # will create the file workspace.root</code></pre>
                                       <h6>Scanning (fitting) for parameter in workspace</h6>
-                                      <pre><code class="language-bash" style="border: 1px;">bin/tutorial_dataset --var branchingRatio --scanrange 0:1.e-16     # likelihood scan for parameter "branchingRatio" </code></pre>
+                                      <pre><code class="language-bash" style="border: 1px;">bin/tutorial_dataset --var branchingRatio --scanrange 0:1.e-6     # likelihood scan for parameter "branchingRatio" </code></pre>
                                       <h6>Plotting (add the <code>-a plot</code> option)</h6>
-                                      <pre><code class="language-bash" style="border: 1px;">bin/tutorial_dataset --var branchingRatio --scanrange 0:1.e-16 -a plot --cls 1  # add the CLs method as well</code></pre>
+                                      <pre><code class="language-bash" style="border: 1px;">bin/tutorial_dataset --var branchingRatio --scanrange 0:1.e-6 -a plot --cls 1  # add the CLs method as well</code></pre>
                                     </div><!--//code-block-->
                                     The very last command should produce the plot shown below. <br>
                                     To see the full list of options (of which there are many) run with the <code>-h</code> option.
