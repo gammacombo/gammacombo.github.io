@@ -29,10 +29,10 @@ MethodDatasetsPluginScan::readScan1dTrees() : read an average of 5.00 toys per s
 MethodDatasetsPluginScan::readScan1dTrees() : fraction of failed toys: 0.00%.
 MethodDatasetsPluginScan::readScan1dTrees() : fraction of failed background toys: 0.00%.
 MethodDatasetsPluginScan::readScan1dTrees() : fraction of unphysical toys: 0.00%.
-MethodDatasetsPluginScan::readScan1dTrees() : fit prob of best-fit point: (20.0+/-17.9)%
+MethodDatasetsPluginScan::readScan1dTrees() : fit prob of best-fit point: (60.0+/-21.9)%
 CONFIDENCE INTERVALS for combination PDF_Dataset
 
-branchingRatio = [0.000000016, 0.000000221] (0.000000103 -0.000000087 +0.000000118) @0.68CL, DatasetsPlugin
+branchingRatio = [-0.00000001, 0.00000027] (0.00000010 -0.00000011 +0.00000017) @0.68CL, DatasetsPlugin
 
 branchingRatio = [-0.00000001, 0.00000031] (0.00000010 -0.00000011 +0.00000021) @0.95CL, DatasetsPlugin
 
@@ -40,6 +40,8 @@ branchingRatio = [-0.00000001, 0.00000032] (0.00000010 -0.00000011 +0.00000022) 
 
 
 
+
+branchingRatio = [  -0.00,    0.00] @0.68CL, DatasetsPlugin (boundary scan)
 
 branchingRatio = [  -0.00,    0.00] @0.95CL, DatasetsPlugin (boundary scan)
 
@@ -69,4 +71,4 @@ branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsProb (boundary scan)
 Dataset Scan Done
 saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_branchingRatio_plugin.pdf
 
-Real time 0:00:00, CP time 0.400
+Real time 0:00:00, CP time 0.370

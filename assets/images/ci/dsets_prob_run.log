@@ -43,7 +43,7 @@ SOLUTION 0:
 
   combination: PDF_Dataset
   title:       default
-  date:        Wed Apr 15 22:31:05 2020
+  date:        Wed Apr 15 22:37:31 2020
   FCN: -325.811, EDM: 1.35112e-06
   COV quality: 3, status: 0, confirmed: yes
 
@@ -82,4 +82,4 @@ saving parameters to: plots/par/tutorial_dataset_PDF_Dataset_branchingRatio.dat
 Dataset Scan Done
 saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_branchingRatio.pdf
 
-Real time 0:00:01, CP time 1.280
+Real time 0:00:01, CP time 1.200
