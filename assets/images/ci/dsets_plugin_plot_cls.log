@@ -46,18 +46,14 @@ branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsProb (boundary scan)
 
 CONFIDENCE INTERVALS for combination PDF_Dataset
 
-branchingRatio = [0.000000008, 0.000000282] (0.000000103 -0.000000095 +0.000000179) @0.68CL, DatasetsPlugin
+branchingRatio = [0.000000042, 0.000000282] (0.000000103 -0.000000061 +0.000000179) @0.68CL, DatasetsPlugin
 
-branchingRatio = [-0.00000001, 0.00000034] (0.00000010 -0.00000011 +0.00000024) @0.95CL, DatasetsPlugin
+branchingRatio = [-0.00000001, 0.00000039] (0.00000010 -0.00000011 +0.00000029) @0.95CL, DatasetsPlugin
 
-branchingRatio = [-0.00000001, 0.00000034] (0.00000010 -0.00000011 +0.00000024) @1.00CL, DatasetsPlugin
-
-
+branchingRatio = [-0.00000001, 0.00000039] (0.00000010 -0.00000011 +0.00000029) @1.00CL, DatasetsPlugin
 
 
-branchingRatio = [  -0.00,    0.00] @0.95CL, DatasetsPlugin (boundary scan)
 
-branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsPlugin (boundary scan)
 
 branchingRatio = [  -0.00,    0.00] @0.95CL, DatasetsPlugin (boundary scan)
 
@@ -66,4 +62,4 @@ branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsPlugin (boundary scan)
 Dataset Scan Done
 saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_branchingRatio_plugin_cls.pdf
 
-Real time 0:00:00, CP time 0.400
+Real time 0:00:00, CP time 0.570
