@@ -1,1 +1,221 @@
-Testing
+<font size="5"><u> GammaCombo Continous Integration Test </u></font><br><br>
+<script language="Javascript"> document.write("CI checks performed on " + document.lastModified +" (UTC)"); </script> <br><br>
+<b>Comments:</b><br>
+In case it wasn't already obvious the plots in the column on the left (in black boxes) should match those on the right (in red boxes). <br>
+Data points will include random fluctuations from the Feldman-Cousins toys so will not match exactly. <br>
+Your CI tests produced these logfiles:<br>
+&nbsp;&nbsp;- Check &nbsp;&nbsp;1/13:  <a href="assets/images/ci/comb_prob_run.log">comb_prob_run.log</a><br>
+&nbsp;&nbsp;- Check &nbsp;&nbsp;2/13:  <a href="assets/images/ci/comb_prob_plot.log">comb_prob_plot.log</a><br>
+&nbsp;&nbsp;- Check &nbsp;&nbsp;3/13:  <a href="assets/images/ci/comb_plugin_gen.log">comb_plugin_gen.log</a><br>
+&nbsp;&nbsp;- Check &nbsp;&nbsp;4/13:  <a href="assets/images/ci/comb_plugin_run.log">comb_plugin_run.log</a><br>
+&nbsp;&nbsp;- Check &nbsp;&nbsp;5/13:  <a href="assets/images/ci/comb_plugin_plot.log">comb_plugin_plot.log</a><br>
+&nbsp;&nbsp;- Check &nbsp;&nbsp;6/13:  <a href="assets/images/ci/dsets_build_workspace.log">dsets_build_workspace.log</a><br>
+&nbsp;&nbsp;- Check &nbsp;&nbsp;7/13: <a href="assets/images/ci/dsets_prob_run.log">dsets_prob_run.log</a><br>
+&nbsp;&nbsp;- Check &nbsp;&nbsp;8/13: <a href="assets/images/ci/dsets_prob_plot.log">dsets_prob_plot.log</a><br>
+&nbsp;&nbsp;- Check &nbsp;&nbsp;9/13: <a href="assets/images/ci/dsets_prob_plot_cls.log">dsets_prob_plot_cls.log</a><br>
+&nbsp;&nbsp;- Check 10/13:  <a href="assets/images/ci/dsets_plugin_gen.log">dsets_plugin_gen.log</a><br>
+&nbsp;&nbsp;- Check 11/13: <a href="assets/images/ci/dsets_plugin_run.log">dsets_plugin_run.log</a><br>
+&nbsp;&nbsp;- Check 12/13:  <a href="assets/images/ci/dsets_plugin_plot.log">dsets_plugin_plot.log</a><br>
+&nbsp;&nbsp;- Check 13/13:  <a href="assets/images/ci/dsets_plugin_plot_cls.log">dsets_plugin_plot_cls.log</a><br>
+<br>
+<div style="display:inline-block;border-style:double;border-width:3px;margin-bottom:3px;color:black;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  <font size="4"><b> Your CI Test </b> </font>
+	</center>
+</div>
+<div style="display:inline-block;border-style:double;border-width:3px;margin-bottom:3px;color:red;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+	<font size="4" color="red"><b> Reference </b> </font>
+  </center>
+</div>
+<br><br>
+<!---->
+Plot 1/10: comb_prob_run <br>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:black;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  <br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial -c 5 --var a_gaus --ps 1 --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/comb_prob_run.pdf'><img width="600" src="assets/images/ci/comb_prob_run.png"></a></br>
+  <a href='assets/images/ci/comb_prob_run.png'>png</a> &#160; <a href='assets/images/ci/comb_prob_run.pdf'>pdf</a>
+  </center>
+</div>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:red;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  <br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial -c 5 --var a_gaus --ps 1 --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/comb_prob_run_ref.pdf'><img width="600" src="assets/images/ci/comb_prob_run_ref.png"></a></br>
+  <a href='assets/images/ci/comb_prob_run_ref.png'>png</a> &#160; <a href='assets/images/ci/comb_prob_run_ref.pdf'>pdf</a>
+  </center>
+</div>
+<br>
+<!---->
+Plot 2/10: comb_prob_plot <br>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:black;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial -c 5 --var a_gaus --ps 1 -a plot --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/comb_prob_plot.pdf'><img width="600" src="assets/images/ci/comb_prob_plot.png"></a></br>
+  <a href='assets/images/ci/comb_prob_plot.png'>png</a> &#160; <a href='assets/images/ci/comb_prob_plot.pdf'>pdf</a>
+  </center>
+</div>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:red;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial -c 5 --var a_gaus --ps 1 -a plot --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/comb_prob_plot_ref.pdf'><img width="600" src="assets/images/ci/comb_prob_plot_ref.png"></a></br>
+  <a href='assets/images/ci/comb_prob_plot_ref.png'>png</a> &#160; <a href='assets/images/ci/comb_prob_plot_ref.pdf'>pdf</a>
+  </center>
+</div>
+<br>
+<!---->
+Plot 3/10: comb_plugin_run <br>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:black;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial -c 5 --var a_gaus -a plugin --ntoys 5 --ps 1 --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/comb_plugin_run.pdf'><img width="600" src="assets/images/ci/comb_plugin_run.png"></a></br>
+  <a href='assets/images/ci/comb_plugin_run.png'>png</a> &#160; <a href='assets/images/ci/comb_plugin_run.pdf'>pdf</a>
+  </center>
+</div>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:red;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial -c 5 --var a_gaus -a plugin --ntoys 5 --ps 1 --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/comb_plugin_run_ref.pdf'><img width="600" src="assets/images/ci/comb_plugin_run_ref.png"></a></br>
+  <a href='assets/images/ci/comb_plugin_run_ref.png'>png</a> &#160; <a href='assets/images/ci/comb_plugin_run_ref.pdf'>pdf</a>
+  </center>
+</div>
+<br>
+<!---->
+Plot 4/10: comb_plugin_plot <br>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:black;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial -c 5 --var a_gaus -a plugin -a plot --ps 1 --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/comb_plugin_plot.pdf'><img width="600" src="assets/images/ci/comb_plugin_plot.png"></a></br>
+  <a href='assets/images/ci/comb_plugin_plot.png'>png</a> &#160; <a href='assets/images/ci/comb_plugin_plot.pdf'>pdf</a>
+  </center>
+</div>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:red;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial -c 5 --var a_gaus -a plugin -a plot --ps 1 --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/comb_plugin_plot_ref.pdf'><img width="600" src="assets/images/ci/comb_plugin_plot_ref.png"></a></br>
+  <a href='assets/images/ci/comb_plugin_plot_ref.png'>png</a> &#160; <a href='assets/images/ci/comb_plugin_plot_ref.pdf'>pdf</a>
+  </center>
+</div>
+<br>
+<!---->
+Plot 5/10: dsets_prob_run <br>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:black;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial_dataset --var branchingRatio --scanrange 0:5.e-7 --ps 1 --npoints 20 --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/dsets_prob_run.pdf'><img width="600" src="assets/images/ci/dsets_prob_run.png"></a></br>
+  <a href='assets/images/ci/dsets_prob_run.png'>png</a> &#160; <a href='assets/images/ci/dsets_prob_run.pdf'>pdf</a>
+  </center>
+</div>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:red;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial_dataset --var branchingRatio --scanrange 0:5.e-7 --ps 1 --npoints 20 --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/dsets_prob_run_ref.pdf'><img width="600" src="assets/images/ci/dsets_prob_run_ref.png"></a></br>
+  <a href='assets/images/ci/dsets_prob_run_ref.png'>png</a> &#160; <a href='assets/images/ci/dsets_prob_run_ref.pdf'>pdf</a>
+  </center>
+</div>
+<br>
+<!---->
+Plot 6/10: dsets_prob_plot <br>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:red;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial_dataset --var branchingRatio --scanrange 0:5.e-7 -a plot --ps 1 --npoints 20 --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/dsets_prob_plot.pdf'><img width="600" src="assets/images/ci/dsets_prob_plot.png"></a></br>
+  <a href='assets/images/ci/dsets_prob_plot.png'>png</a> &#160; <a href='assets/images/ci/dsets_prob_plot.pdf'>pdf</a>
+  </center>
+</div>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:red;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial_dataset --var branchingRatio --scanrange 0:5.e-7 -a plot --ps 1 --npoints 20 --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/dsets_prob_plot_ref.pdf'><img width="600" src="assets/images/ci/dsets_prob_plot_ref.png"></a></br>
+  <a href='assets/images/ci/dsets_prob_plot_ref.png'>png</a> &#160; <a href='assets/images/ci/dsets_prob_plot_ref.pdf'>pdf</a>
+  </center>
+</div>
+<br>
+<!---->
+Plot 7/10: dsets_prob_plot_cls <br>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:black;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial_dataset --var branchingRatio --scanrange 0:5.e-7 -a plot --ps 1 --npoints 20 --cls 1 --teststat 1 --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/dsets_prob_plot_cls.pdf'><img width="600" src="assets/images/ci/dsets_prob_plot_cls.png"></a></br>
+  <a href='assets/images/ci/dsets_prob_plot_cls.png'>png</a> &#160; <a href='assets/images/ci/dsets_prob_plot_cls.pdf'>pdf</a>
+  </center>
+</div>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:red;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial_dataset --var branchingRatio --scanrange 0:5.e-7 -a plot --ps 1 --npoints 20 --cls 1 --teststat 1 --grouppos def:0.8&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/dsets_prob_plot_cls_ref.pdf'><img width="600" src="assets/images/ci/dsets_prob_plot_cls_ref.png"></a></br>
+  <a href='assets/images/ci/dsets_prob_plot_cls_ref.png'>png</a> &#160; <a href='assets/images/ci/dsets_prob_plot_cls_ref.pdf'>pdf</a>
+  </center>
+</div>
+<br>
+<!---->
+Plot 8/10: dsets_plugin_run <br>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:black;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial_dataset --var branchingRatio --scanrange 0:5.e-7 -a plugin --ps 1 --npoints 20 --npointstoy 20&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/dsets_plugin_run.pdf'><img width="600" src="assets/images/ci/dsets_plugin_run.png"></a></br>
+  <a href='assets/images/ci/dsets_plugin_run.png'>png</a> &#160; <a href='assets/images/ci/dsets_plugin_run.pdf'>pdf</a>
+  </center>
+</div>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:red;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial_dataset --var branchingRatio --scanrange 0:5.e-7 -a plugin --ps 1 --npoints 20 --npointstoy 20&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/dsets_plugin_run_ref.pdf'><img width="600" src="assets/images/ci/dsets_plugin_run_ref.png"></a></br>
+  <a href='assets/images/ci/dsets_plugin_run_ref.png'>png</a> &#160; <a href='assets/images/ci/dsets_plugin_run_ref.pdf'>pdf</a>
+  </center>
+</div>
+<br>
+<!---->
+Plot 9/10: dsets_plugin_plot <br>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:black;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial_dataset --var branchingRatio --scanrange 0:5.e-7 -a plugin -a plot --ps 1 --npoints 20&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/dsets_plugin_plot.pdf'><img width="600" src="assets/images/ci/dsets_plugin_plot.png"></a></br>
+  <a href='assets/images/ci/dsets_plugin_plot.png'>png</a> &#160; <a href='assets/images/ci/dsets_plugin_plot.pdf'>pdf</a>
+  </center>
+</div>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:red;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial_dataset --var branchingRatio --scanrange 0:5.e-7 -a plugin -a plot --ps 1 --npoints 20&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/dsets_plugin_plot_ref.pdf'><img width="600" src="assets/images/ci/dsets_plugin_plot_ref.png"></a></br>
+  <a href='assets/images/ci/dsets_plugin_plot_ref.png'>png</a> &#160; <a href='assets/images/ci/dsets_plugin_plot_ref.pdf'>pdf</a>
+  </center>
+</div>
+<br>
+<!---->
+Plot 10/10: dsets_plugin_plot_cls <br>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:black;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial_dataset --var branchingRatio --scanrange 0:5.e-7 -a plugin -a plot --ps 1 --npoints 20 --cls 1 --teststat 1&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/dsets_plugin_plot_cls.pdf'><img width="600" src="assets/images/ci/dsets_plugin_plot_cls.png"></a></br>
+  <a href='assets/images/ci/dsets_plugin_plot_cls.png'>png</a> &#160; <a href='assets/images/ci/dsets_plugin_plot_cls.pdf'>pdf</a>
+  </center>
+</div>
+<div style="display:inline-block;border-style:solid;border-width:3px;margin-bottom:3px;color:red;width:600;word-break:break-all;word-wrap:break-all;">
+  <center>
+  </br>
+ <tt style="border-style:groove;border-color:black;border-width:1px"><mark style="background-color:#D0D3D4">&nbsp;bin/tutorial_dataset --var branchingRatio --scanrange 0:5.e-7 -a plugin -a plot --ps 1 --npoints 20 --cls 1 --teststat 1&nbsp;</mark></tt> </br>
+  <a href='assets/images/ci/dsets_plugin_plot_cls_ref.pdf'><img width="600" src="assets/images/ci/dsets_plugin_plot_cls_ref.png"></a></br>
+  <a href='assets/images/ci/dsets_plugin_plot_cls_ref.png'>png</a> &#160; <a href='assets/images/ci/dsets_plugin_plot_cls_ref.pdf'>pdf</a>
+  </center>
+</div>
+
