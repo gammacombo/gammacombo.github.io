@@ -1,33 +1,143 @@
 
-[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
-                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
-                All rights reserved, please read http://roofit.sourceforge.net/license.txt
-
-
-[1mGammaCombo v1.3 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
+[1mGammaCombo 1.0.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
 
 
 Combiner Configuration: 2D Gaus & Gaus 1
 =======================
-
  1. [measurement   2] 1D Gaussian (a_{obs} =  1.5)                                     
  2. [measurement   3] 2D Gaussian (a_{obs}, b_{obs})                                   
+=======================
+   3 input observables: ( a_gaus_obsUID0, a_gaus_obsUID1, b_gaus_obsUID1 )
+   2 free parameters:   ( a_gaus, b_gaus )
+=======================
 
 loading scanner: plots/scanner/tutorial_scanner_tutorial5_a_gaus.root
 reading files: root/scan1dPlugin_tutorial5_a_gaus/scan1dPlugin_tutorial5_a_gaus_run*.root
 read toy files: 1analysing toys ...
-  2% [=                                                 ]  4% [==                                                ]  6% [===                                               ]  8% [====                                              ] 11% [=====                                             ] 13% [======                                            ] 15% [=======                                           ] 17% [========                                          ] 19% [=========                                         ] 22% [===========                                       ] 24% [============                                      ] 26% [=============                                     ] 28% [==============                                    ] 30% [===============                                   ] 33% [================                                  ] 35% [=================                                 ] 37% [==================                                ] 39% [===================                               ] 41% [====================                              ] 44% [======================                            ] 46% [=======================                           ] 48% [========================                          ] 50% [=========================                         ] 52% [==========================                        ] 55% [===========================                       ] 57% [============================                      ] 59% [=============================                     ] 61% [==============================                    ] 63% [===============================                   ] 66% [=================================                 ] 68% [==================================                ] 70% [===================================               ] 72% [====================================              ] 74% [=====================================             ] 77% [======================================            ] 79% [=======================================           ] 81% [========================================          ] 83% [=========================================         ] 85% [==========================================        ] 88% [============================================      ] 90% [=============================================     ] 92% [==============================================    ] 94% [===============================================   ] 96% [================================================  ] 99% [================================================= ]100% [==================================================]                                                          building p-value histogram ...
+  2% [=                                                 ]  4% [==                                                ]  6% [===                                               ]  8% [====                                              ] 11% [=====                                             ] 13% [======                                            ] 15% [=======                                           ] 17% [========                                          ] 19% [=========                                         ] 22% [===========                                       ] 24% [============                                      ] 26% [=============                                     ] 28% [==============                                    ] 30% [===============                                   ] 33% [================                                  ] 35% [=================                                 ] 37% [==================                                ] 39% [===================                               ] 41% [====================                              ] 44% [======================                            ] 46% [=======================                           ] 48% [========================                          ] 50% [=========================                         ] 52% [==========================                        ] 55% [===========================                       ] 57% [============================                      ] 59% [=============================                     ] 61% [==============================                    ] 63% [===============================                   ] 66% [=================================                 ] 68% [==================================                ] 70% [===================================               ] 72% [====================================              ] 74% [=====================================             ] 77% [======================================            ] 79% [=======================================           ] 81% [========================================          ] 83% [=========================================         ] 85% [==========================================        ] 88% [============================================      ] 90% [=============================================     ] 92% [==============================================    ] 94% [===============================================   ] 96% [================================================  ] 99% [================================================= ]100% [==================================================]                                                          saving plot (pdf and other formats) to: plots/pdf/ctrlPlot_tutorial5_a_gaus_MorePlots_1.pdf
+saving plot (pdf and other formats) to: plots/pdf/ctrlPlot_tutorial5_a_gaus_Chi2_Plots.pdf
+saving plot (pdf and other formats) to: plots/pdf/ctrlPlot_tutorial5_a_gaus_Nuisances_1.pdf
+saving plot (pdf and other formats) to: plots/pdf/ctrlPlot_tutorial5_a_gaus_Observables_1.pdf
+saving plot (pdf and other formats) to: plots/pdf/ctrlPlot_tutorial5_a_gaus_Chi2Distribution_1.pdf
+saving plot (pdf and other formats) to: plots/pdf/ctrlPlot_tutorial5_a_gaus_Chi2Parabola_1.pdf
+building p-value histogram ...
   2% [=                                                 ]  4% [==                                                ]  6% [===                                               ]  8% [====                                              ] 11% [=====                                             ] 13% [======                                            ] 15% [=======                                           ] 17% [========                                          ] 19% [=========                                         ] 22% [===========                                       ] 24% [============                                      ] 26% [=============                                     ] 28% [==============                                    ] 30% [===============                                   ] 33% [================                                  ] 35% [=================                                 ] 37% [==================                                ] 39% [===================                               ] 41% [====================                              ] 44% [======================                            ] 46% [=======================                           ] 48% [========================                          ] 50% [=========================                         ] 52% [==========================                        ] 55% [===========================                       ] 57% [============================                      ] 59% [=============================                     ] 61% [==============================                    ] 63% [===============================                   ] 66% [=================================                 ] 68% [==================================                ] 70% [===================================               ] 72% [====================================              ] 74% [=====================================             ] 77% [======================================            ] 79% [=======================================           ] 81% [========================================          ] 83% [=========================================         ] 85% [==========================================        ] 88% [============================================      ] 90% [=============================================     ] 92% [==============================================    ] 94% [===============================================   ] 96% [================================================  ] 99% [================================================= ]100% [==================================================]                                                          read an average of 5 toys per scan point.
 fraction of failed toys: 0%.
-fraction of background toys: 0%.
-fit prob of best-fit point (1.0249): (20.0+/-17.9)%
+fraction of negative test stat toys: 0%.
+saving plot (pdf and other formats) to: plots/pdf/p_values1_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values2_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values3_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values4_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values5_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values6_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values7_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values8_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values9_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values10_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values11_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values12_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values13_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values14_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values15_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values16_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values17_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values18_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values19_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values20_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values21_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values22_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values23_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values24_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values25_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values26_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values27_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values28_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values29_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values30_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values31_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values32_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values33_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values34_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values35_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values36_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values37_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values38_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values39_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values40_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values41_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values42_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values43_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values44_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values45_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values46_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values47_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values48_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values49_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values50_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values51_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values52_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values53_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values54_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values55_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values56_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values57_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values58_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values59_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values60_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values61_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values62_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values63_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values64_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values65_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values66_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values67_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values68_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values69_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values70_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values71_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values72_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values73_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values74_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values75_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values76_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values77_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values78_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values79_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values80_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values81_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values82_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values83_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values84_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values85_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values86_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values87_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values88_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values89_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values90_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values91_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values92_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values93_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values94_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values95_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values96_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values97_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values98_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values99_a_gaus.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values100_a_gaus.pdf
+fit prob of best-fit point (1.12489): (0.0+/-0.0)%
 CONFIDENCE INTERVALS for combination tutorial5
 
-a_gaus = [   0.70,    1.42] (   1.20 -   0.50 +   0.22) @0.68CL, Plugin
+saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_UID1_0.317300.pdf
+saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_Graph0_0.317300.pdf
+saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_Graph0_0.045500.pdf
+saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_Graph0_0.045500.pdf
+saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_Graph0_0.002700.pdf
+saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_Graph0_0.002700.pdf
+a_gaus = [   0.91,    1.49] (   1.20 -   0.29 +   0.29) @0.68CL, Plugin
 
-a_gaus = [   0.56,    1.52] (   1.20 -   0.64 +   0.32) @0.95CL, Plugin
+a_gaus = [   0.47,    1.67] (   1.20 -   0.73 +   0.47) @0.95CL, Plugin
 
-a_gaus = [   0.57,    1.52] (   1.20 -   0.63 +   0.32) @1.00CL, Plugin
+a_gaus = [   0.46,    1.67] (   1.20 -   0.74 +   0.47) @1.00CL, Plugin
 
 
 
@@ -38,6 +148,11 @@ Computing CL values based on test statistic decision
 Using 2-sided test statistic
 CONFIDENCE INTERVALS for combination tutorial5
 
+saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Prob_hCLUID1_0.317300.pdf
+saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Prob_Graph0_0.317300.pdf
+saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Prob_Graph0_0.045500.pdf
+saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Prob_Graph0_0.045500.pdf
+saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Prob_Graph0_0.002700.pdf
 a_gaus = [   0.74,    1.66] (   1.20 -   0.46 +   0.46) @0.68CL, Prob
 
 a_gaus = [   0.27,    2.13] (   1.20 -   0.93 +   0.93) @0.95CL, Prob
@@ -53,4 +168,4 @@ Fit quality: chi2/(nObs-nPar) = 1.54/(3-2), P = 21.5%
 
 saving plot (pdf and other formats) to: plots/pdf/tutorial_tutorial5_a_gaus_plugin.pdf
 
-Real time 0:00:00, CP time 0.390
+Real time 0:00:06, CP time 6.610

@@ -1,17 +1,15 @@
 
-[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
-                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
-                All rights reserved, please read http://roofit.sourceforge.net/license.txt
-
-
-[1mGammaCombo v1.3 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
+[1mGammaCombo 1.0.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
 
 
 Combiner Configuration: 2D Gaus & Gaus 1
 =======================
-
  1. [measurement   2] 1D Gaussian (a_{obs} =  1.5)                                     
  2. [measurement   3] 2D Gaussian (a_{obs}, b_{obs})                                   
+=======================
+   3 input observables: ( a_gaus_obsUID0, a_gaus_obsUID1, b_gaus_obsUID1 )
+   2 free parameters:   ( a_gaus, b_gaus )
+=======================
 
 loading scanner: plots/scanner/tutorial_scanner_tutorial5_a_gaus.root
 Computing CL values based on test statistic decision
@@ -33,4 +31,4 @@ Fit quality: chi2/(nObs-nPar) = 1.54/(3-2), P = 21.5%
 
 saving plot (pdf and other formats) to: plots/pdf/tutorial_tutorial5_a_gaus.pdf
 
-Real time 0:00:00, CP time 0.250
+Real time 0:00:00, CP time 0.430

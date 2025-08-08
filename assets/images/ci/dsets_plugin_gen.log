@@ -1,20 +1,16 @@
-
-[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
-                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
-                All rights reserved, please read http://roofit.sourceforge.net/license.txt
-
 INFO in PDF_Datasets::initData -- Data initialized
-INFO in PDF_Datasets::initBkgPDF -- PDF initialized. CLs method ready.
+intitalising no multipdf. isPdfSet=0 isMultipdfSet=0.
 INFO in PDF_Datasets::initPDF -- PDF initialized
-[#1] INFO:Minization -- createNLL: caching constraint set under name CONSTR_OF_PDF_mass_model_FOR_OBS_mass with 1 entries
-[#1] INFO:Minization --  Including the following contraint terms in minimization: (norm_constant_constraint)
-[#0] WARNING:Eval -- RooAbsPdf::getLogVal(norm_constant_constraint) WARNING: large likelihood value: 7.97883e+08
+[#1] INFO:Minimization --  Including the following constraint terms in minimization: (norm_constant_constraint)
+[#1] INFO:Minimization -- The global observables are not defined , normalize constraints with respect to the parameters (Nbkg,branchingRatio,exponent,mean,norm_constant,sigma)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(mass_model) fixing normalization set for coefficient determination to observables in data
+[#1] INFO:Fitting -- using CPU computation library compiled with -mavx2
 [#1] INFO:Eval -- RooRealVar::setRange(mass) new range named 'unblind0' created with bounds [4360,6360]
 
-[1mGammaCombo v1.3 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
+[1mGammaCombo 1.0.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
 
-=============== Global minimum (2*-Log(Likelihood)) is: 2*-325.811 = -651.621
-=============== Bkg minimum (2*-Log(Likelihood)) is: 2*-325.53 = -651.059
+=============== Global minimum (2*-Log(Likelihood)) is: -651.621
+=============== Bkg minimum (2*-Log(Likelihood)) is: -651.059
 loading scanner: plots/scanner/tutorial_dataset_scanner_PDF_Dataset_DatasetsProb_branchingRatio.root
 analysing toys ...
   5%
@@ -37,8 +33,8 @@ analysing toys ...
  90%
  95%
 100%
-Best fit at: scanVar  = 1.02813e-07 with Chi2Min: -651.621
-=============== Global Minimum (2*-Log(Likelihood)) is: 2*-325.811 = -651.621
+Best fit at: scanVar  = 1.0281e-07 with Chi2Min: -651.621
+=============== Global Minimum (2*-Log(Likelihood)) is: -651.621
 =============== Bkg minimum (2*-Log(Likelihood)) is: -651.059
 MethodDatasetsPluginScan::scan1d_plugin() : starting ... with 20 scanpoints...
   5%
@@ -63,4 +59,4 @@ MethodDatasetsPluginScan::scan1d_plugin() : starting ... with 20 scanpoints...
 100%
 Dataset Scan Done
 
-Real time 0:00:22, CP time 22.060
+Real time 0:00:01, CP time 1.370

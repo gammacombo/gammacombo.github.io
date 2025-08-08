@@ -1,24 +1,20 @@
-
-[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
-                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
-                All rights reserved, please read http://roofit.sourceforge.net/license.txt
-
 INFO in PDF_Datasets::initData -- Data initialized
-INFO in PDF_Datasets::initBkgPDF -- PDF initialized. CLs method ready.
+intitalising no multipdf. isPdfSet=0 isMultipdfSet=0.
 INFO in PDF_Datasets::initPDF -- PDF initialized
-[#1] INFO:Minization -- createNLL: caching constraint set under name CONSTR_OF_PDF_mass_model_FOR_OBS_mass with 1 entries
-[#1] INFO:Minization --  Including the following contraint terms in minimization: (norm_constant_constraint)
-[#0] WARNING:Eval -- RooAbsPdf::getLogVal(norm_constant_constraint) WARNING: large likelihood value: 7.97883e+08
+[#1] INFO:Minimization --  Including the following constraint terms in minimization: (norm_constant_constraint)
+[#1] INFO:Minimization -- The global observables are not defined , normalize constraints with respect to the parameters (Nbkg,branchingRatio,exponent,mean,norm_constant,sigma)
+[#1] INFO:Fitting -- RooAbsPdf::fitTo(mass_model) fixing normalization set for coefficient determination to observables in data
+[#1] INFO:Fitting -- using CPU computation library compiled with -mavx2
 [#1] INFO:Eval -- RooRealVar::setRange(mass) new range named 'unblind0' created with bounds [4360,6360]
 
-[1mGammaCombo v1.3 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
+[1mGammaCombo 1.0.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
 
-=============== Global minimum (2*-Log(Likelihood)) is: 2*-325.811 = -651.621
-=============== Bkg minimum (2*-Log(Likelihood)) is: 2*-325.53 = -651.059
+=============== Global minimum (2*-Log(Likelihood)) is: -651.621
+=============== Bkg minimum (2*-Log(Likelihood)) is: -651.059
 loading scanner: plots/scanner/tutorial_dataset_scanner_PDF_Dataset_DatasetsProb_branchingRatio.root
 analysing toys ...
-  5% [==                                                ] 10% [=====                                             ] 15% [=======                                           ] 20% [==========                                        ] 25% [============                                      ] 30% [===============                                   ] 35% [=================                                 ] 40% [====================                              ] 45% [======================                            ] 50% [=========================                         ] 55% [===========================                       ] 60% [==============================                    ] 65% [================================                  ] 70% [===================================               ] 75% [=====================================             ] 80% [========================================          ] 85% [==========================================        ] 90% [=============================================     ] 95% [===============================================   ]100% [==================================================]                                                          Best fit at: scanVar  = 1.02813e-07 with Chi2Min: -651.621
-=============== Global Minimum (2*-Log(Likelihood)) is: 2*-325.811 = -651.621
+  5% [==                                                ] 10% [=====                                             ] 15% [=======                                           ] 20% [==========                                        ] 25% [============                                      ] 30% [===============                                   ] 35% [=================                                 ] 40% [====================                              ] 45% [======================                            ] 50% [=========================                         ] 55% [===========================                       ] 60% [==============================                    ] 65% [================================                  ] 70% [===================================               ] 75% [=====================================             ] 80% [========================================          ] 85% [==========================================        ] 90% [=============================================     ] 95% [===============================================   ]100% [==================================================]                                                          Best fit at: scanVar  = 1.0281e-07 with Chi2Min: -651.621
+=============== Global Minimum (2*-Log(Likelihood)) is: -651.621
 =============== Bkg minimum (2*-Log(Likelihood)) is: -651.059
 MethodDatasetsPluginScan::readFiles() : opening root/scan1dDatasetsPlugin_PDF_Dataset_branchingRatio/scan1dDatasetsPlugin_PDF_Dataset_branchingRatio_run1.rootMethodDatasetsPluginScan::readFiles() : read files: 1
 analysing toys ...
@@ -28,15 +24,87 @@ MethodDatasetsPluginScan::readScan1dTrees() : reading entries 0%   MethodDatase
 MethodDatasetsPluginScan::readScan1dTrees() : read an average of 5.00 toys per scan point.
 MethodDatasetsPluginScan::readScan1dTrees() : fraction of failed toys: 0.00%.
 MethodDatasetsPluginScan::readScan1dTrees() : fraction of failed background toys: 0.00%.
-MethodDatasetsPluginScan::readScan1dTrees() : fraction of unphysical toys: 0.00%.
-MethodDatasetsPluginScan::readScan1dTrees() : fit prob of best-fit point: (60.0+/-21.9)%
+MethodDatasetsPluginScan::readScan1dTrees() : fraction of unphysical (negative test stat) toys: 0.00%.
+MethodDatasetsPluginScan::readScan1dTrees() : fraction of unphysical (negative test stat) bkg toys: 0.00%.
+MethodDatasetsPluginScan::readScan1dTrees() : signal significance: naive p-val: 0.45 (0.75 sigma) vs. value from toys: 0.60 (0.52 sigma)
+saving plot (pdf and other formats) to: plots/pdf/p_values1_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values2_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values3_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values4_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values5_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values6_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values7_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values8_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values9_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values10_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values11_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values12_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values13_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values14_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values15_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values16_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values17_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values18_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values19_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/p_values20_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p1_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p2_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p3_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p4_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p5_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p6_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p7_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p8_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p9_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p10_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p11_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p12_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p13_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p14_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p15_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p16_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p17_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p18_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p19_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_testStatControlPlot_p20_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/cls_ControlPlot_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p1_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p2_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p3_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p4_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p5_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p6_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p7_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p8_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p9_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p10_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p11_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p12_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p13_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p14_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p15_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p16_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p17_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p18_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p19_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_p20_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/BiasControlPlot_bkg-only_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/CLb_values_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/bkg-only_pvalues_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/failed_toys_plugin_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/good toys_branchingRatio.pdf
+saving plot (pdf and other formats) to: plots/pdf/debug_plots_branchingRatio.pdf
+MethodDatasetsPluginScan::readScan1dTrees() : fit prob of best-fit point: (80.0+/-17.9)%
 CONFIDENCE INTERVALS for combination PDF_Dataset
 
-branchingRatio = [-0.00000001, 0.00000025] (0.00000010 -0.00000011 +0.00000015) @0.68CL, DatasetsPlugin
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+branchingRatio = [-0.00000001, 0.00000027] (0.00000010 -0.00000011 +0.00000017) @0.68CL, DatasetsPlugin
 
-branchingRatio = [-0.00000001, 0.00000026] (0.00000010 -0.00000011 +0.00000016) @0.95CL, DatasetsPlugin
+branchingRatio = [-0.00000001, 0.00000031] (0.00000010 -0.00000011 +0.00000021) @0.95CL, DatasetsPlugin
 
-branchingRatio = [-0.00000001, 0.00000026] (0.00000010 -0.00000011 +0.00000016) @1.00CL, DatasetsPlugin
+branchingRatio = [-0.00000001, 0.00000032] (0.00000010 -0.00000011 +0.00000022) @1.00CL, DatasetsPlugin
 
 
 
@@ -51,6 +119,8 @@ Computing CL values based on test statistic decision
 Using 2-sided test statistic
 CONFIDENCE INTERVALS for combination PDF_Dataset
 
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
 branchingRatio = [-0.00000001, 0.00000025] (0.00000010 -0.00000011 +0.00000015) @0.68CL, DatasetsProb
 
 branchingRatio = [-0.00000001, 0.00000040] (0.00000010 -0.00000011 +0.00000030) @0.95CL, DatasetsProb
@@ -71,4 +141,4 @@ branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsProb (boundary scan)
 Dataset Scan Done
 saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_branchingRatio_plugin.pdf
 
-Real time 0:00:00, CP time 0.510
+Real time 0:00:02, CP time 2.850
