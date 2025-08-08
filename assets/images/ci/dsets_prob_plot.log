@@ -38,4 +38,4 @@ branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsProb (boundary scan)
 Dataset Scan Done
 saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_branchingRatio.pdf
 
-Real time 0:00:00, CP time 0.220
+Real time 0:00:00, CP time 0.230

@@ -59,4 +59,4 @@ MethodDatasetsPluginScan::scan1d_plugin() : starting ... with 20 scanpoints...
 100%
 Dataset Scan Done
 
-Real time 0:00:01, CP time 1.380
+Real time 0:00:01, CP time 1.370

@@ -26,7 +26,7 @@ MethodDatasetsPluginScan::readScan1dTrees() : fraction of failed toys: 0.00%.
 MethodDatasetsPluginScan::readScan1dTrees() : fraction of failed background toys: 0.00%.
 MethodDatasetsPluginScan::readScan1dTrees() : fraction of unphysical (negative test stat) toys: 0.00%.
 MethodDatasetsPluginScan::readScan1dTrees() : fraction of unphysical (negative test stat) bkg toys: 0.00%.
-MethodDatasetsPluginScan::readScan1dTrees() : signal significance: naive p-val: 0.45 (0.75 sigma) vs. value from toys: 0.40 (0.84 sigma)
+MethodDatasetsPluginScan::readScan1dTrees() : signal significance: naive p-val: 0.45 (0.75 sigma) vs. value from toys: 0.60 (0.52 sigma)
 saving plot (pdf and other formats) to: plots/pdf/p_values1_branchingRatio.pdf
 saving plot (pdf and other formats) to: plots/pdf/p_values2_branchingRatio.pdf
 saving plot (pdf and other formats) to: plots/pdf/p_values3_branchingRatio.pdf
@@ -94,22 +94,23 @@ saving plot (pdf and other formats) to: plots/pdf/bkg-only_pvalues_branchingRati
 saving plot (pdf and other formats) to: plots/pdf/failed_toys_plugin_branchingRatio.pdf
 saving plot (pdf and other formats) to: plots/pdf/good toys_branchingRatio.pdf
 saving plot (pdf and other formats) to: plots/pdf/debug_plots_branchingRatio.pdf
-MethodDatasetsPluginScan::readScan1dTrees() : fit prob of best-fit point: (60.0+/-21.9)%
+MethodDatasetsPluginScan::readScan1dTrees() : fit prob of best-fit point: (80.0+/-17.9)%
 CONFIDENCE INTERVALS for combination PDF_Dataset
 
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-branchingRatio = [-0.00000001, 0.00000023] (0.00000010 -0.00000011 +0.00000013) @0.68CL, DatasetsPlugin
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+branchingRatio = [0.000000041, 0.000000248] (0.000000103 -0.000000062 +0.000000145) @0.68CL, DatasetsPlugin
 
-branchingRatio = [-0.00000001, 0.00000034] (0.00000010 -0.00000011 +0.00000024) @0.95CL, DatasetsPlugin
+branchingRatio = [0.000000029, 0.000000362] (0.000000103 -0.000000074 +0.000000259) @0.95CL, DatasetsPlugin
 
-branchingRatio = [-0.00000001, 0.00000034] (0.00000010 -0.00000011 +0.00000024) @1.00CL, DatasetsPlugin
-
-
+branchingRatio = [0.000000027, 0.000000368] (0.000000103 -0.000000076 +0.000000265) @1.00CL, DatasetsPlugin
 
 
-branchingRatio = [  -0.00,    0.00] @0.68CL, DatasetsPlugin (boundary scan)
+
 
 branchingRatio = [  -0.00,    0.00] @0.95CL, DatasetsPlugin (boundary scan)
 
@@ -141,4 +142,4 @@ branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsProb (boundary scan)
 Dataset Scan Done
 saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_branchingRatio_plugin.pdf
 
-Real time 0:00:02, CP time 2.840
+Real time 0:00:02, CP time 2.880

@@ -49,16 +49,17 @@ CONFIDENCE INTERVALS for combination PDF_Dataset
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-branchingRatio = [-0.00000001, 0.00000023] (0.00000010 -0.00000011 +0.00000013) @0.68CL, DatasetsPlugin
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+branchingRatio = [0.000000041, 0.000000248] (0.000000103 -0.000000062 +0.000000145) @0.68CL, DatasetsPlugin
 
-branchingRatio = [-0.00000001, 0.00000034] (0.00000010 -0.00000011 +0.00000024) @0.95CL, DatasetsPlugin
+branchingRatio = [0.000000029, 0.000000362] (0.000000103 -0.000000074 +0.000000259) @0.95CL, DatasetsPlugin
 
-branchingRatio = [-0.00000001, 0.00000034] (0.00000010 -0.00000011 +0.00000024) @1.00CL, DatasetsPlugin
-
-
+branchingRatio = [0.000000027, 0.000000368] (0.000000103 -0.000000076 +0.000000265) @1.00CL, DatasetsPlugin
 
 
-branchingRatio = [  -0.00,    0.00] @0.68CL, DatasetsPlugin (boundary scan)
+
 
 branchingRatio = [  -0.00,    0.00] @0.95CL, DatasetsPlugin (boundary scan)
 
@@ -67,4 +68,4 @@ branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsPlugin (boundary scan)
 Dataset Scan Done
 saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_branchingRatio_plugin_cls.pdf
 
-Real time 0:00:00, CP time 0.340
+Real time 0:00:00, CP time 0.360
