@@ -37,7 +37,7 @@ SOLUTION 0:
 
   combination: tutorial5
   title:       2D Gaus & Gaus 1
-  date:        Fri Aug  8 09:04:41 2025
+  date:        Fri Aug  8 09:16:58 2025
   FCN: 1.54028, EDM: 1.3142e-23
   COV quality: 3, status: 0, confirmed: yes
 
@@ -97,4 +97,4 @@ PLUGIN scan starting ...
 100%
 saving toys to: root/scan1dPlugin_tutorial5_a_gaus/scan1dPlugin_tutorial5_a_gaus_run1.root
 
-Real time 0:00:00, CP time 0.740
+Real time 0:00:00, CP time 0.730
