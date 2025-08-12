@@ -7,65 +7,22 @@ INFO in PDF_Datasets::initPDF -- PDF initialized
 [#1] INFO:Fitting -- using CPU computation library compiled with -mavx2
 [#1] INFO:Eval -- RooRealVar::setRange(mass) new range named 'unblind0' created with bounds [4360,6360]
 
-[1mGammaCombo 1.0.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
+[1mGammaCombo 1.4.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
 
 =============== Global minimum (2*-Log(Likelihood)) is: -651.621
 =============== Bkg minimum (2*-Log(Likelihood)) is: -651.059
 loading scanner: plots/scanner/tutorial_dataset_scanner_PDF_Dataset_DatasetsProb_branchingRatio.root
 analysing toys ...
   5% [==                                                ] 10% [=====                                             ] 15% [=======                                           ] 20% [==========                                        ] 25% [============                                      ] 30% [===============                                   ] 35% [=================                                 ] 40% [====================                              ] 45% [======================                            ] 50% [=========================                         ] 55% [===========================                       ] 60% [==============================                    ] 65% [================================                  ] 70% [===================================               ] 75% [=====================================             ] 80% [========================================          ] 85% [==========================================        ] 90% [=============================================     ] 95% [===============================================   ]100% [==================================================]                                                          Best fit at: scanVar  = 1.0281e-07 with Chi2Min: -651.621
-=============== Global Minimum (2*-Log(Likelihood)) is: -651.621
-=============== Bkg minimum (2*-Log(Likelihood)) is: -651.059
-loading scanner: plots/scanner/tutorial_dataset_scanner_PDF_Dataset_DatasetsPlugin_branchingRatio.root
-Computing CL values based on test statistic decision
-Using 1-sided test statistic
-MethodDatasetsProbScan::plotFitRes() : WARNING : No background pdf is given. Will plot S+B hypothesis with S=0.
-4999.98
-saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_branchingRatio_plugin_cls_fit.pdf
-Warning in <TFile::Append>: Replacing existing TH1: hCLUID4 (Potential memory leak).
-CONFIDENCE INTERVALS for combination PDF_Dataset
 
-MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-branchingRatio = [-0.000000013, 0.000000171] (0.000000103 -0.000000116 +0.000000068) @0.68CL, DatasetsProb
-
-branchingRatio = [-0.00000001, 0.00000035] (0.00000010 -0.00000011 +0.00000025) @0.95CL, DatasetsProb
-
-branchingRatio = [-0.00000001, 0.00000051] (0.00000010 -0.00000011 +0.00000041) @1.00CL, DatasetsProb
-
-
-
-
-branchingRatio = [  -0.00,    0.00] @0.68CL, DatasetsProb (boundary scan)
-
-branchingRatio = [  -0.00,    0.00] @0.95CL, DatasetsProb (boundary scan)
-
-branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsProb (boundary scan)
-
-branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsProb (boundary scan)
-
-CONFIDENCE INTERVALS for combination PDF_Dataset
-
-MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-branchingRatio = [0.000000041, 0.000000248] (0.000000103 -0.000000062 +0.000000145) @0.68CL, DatasetsPlugin
-
-branchingRatio = [0.000000029, 0.000000362] (0.000000103 -0.000000074 +0.000000259) @0.95CL, DatasetsPlugin
-
-branchingRatio = [0.000000027, 0.000000368] (0.000000103 -0.000000076 +0.000000265) @1.00CL, DatasetsPlugin
-
-
-
-
-branchingRatio = [  -0.00,    0.00] @0.95CL, DatasetsPlugin (boundary scan)
-
-branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsPlugin (boundary scan)
-
-Dataset Scan Done
-saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_branchingRatio_plugin_cls.pdf
-
-Real time 0:00:00, CP time 0.360
+ *** Break *** segmentation violation
+ Generating stack trace...
+ 0x00007f67215d9875 in MethodPluginScan::constructorHelper(MethodProbScan*) at /usr/include/c++/13/bits/shared_ptr_base.h:1463 from /code/build/libGammaComboCore.so
+ 0x00007f67215d9c20 in MethodPluginScan::MethodPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/include/PDF_Datasets.h:78 from /code/build/libGammaComboCore.so
+ 0x00007f67215b4a38 in MethodDatasetsPluginScan::MethodDatasetsPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/src/MethodDatasetsPluginScan.cpp:59 (discriminator 1) from /code/build/libGammaComboCore.so
+ 0x00007f6721581428 in GammaComboEngine::scanDataSet() at /code/core/src/GammaComboEngine.cpp:2259 from /code/build/libGammaComboCore.so
+ 0x00007f6721588904 in GammaComboEngine::run() at /code/core/src/GammaComboEngine.cpp:2317 from /code/build/libGammaComboCore.so
+ 0x0000556d6901a936 in <unknown> from bin/tutorial_dataset
+ 0x00007f671feb1d90 in <unknown> from /lib/x86_64-linux-gnu/libc.so.6
+ 0x00007f671feb1e40 in __libc_start_main + 0x80 from /lib/x86_64-linux-gnu/libc.so.6
+ 0x0000556d6901ac85 in <unknown> from bin/tutorial_dataset

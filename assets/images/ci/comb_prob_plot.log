@@ -1,5 +1,5 @@
 
-[1mGammaCombo 1.0.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
+[1mGammaCombo 1.4.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
 
 
 Combiner Configuration: 2D Gaus & Gaus 1
@@ -31,4 +31,4 @@ Fit quality: chi2/(nObs-nPar) = 1.54/(3-2), P = 21.5%
 
 saving plot (pdf and other formats) to: plots/pdf/tutorial_tutorial5_a_gaus.pdf
 
-Real time 0:00:00, CP time 0.450
+Real time 0:00:00, CP time 0.480

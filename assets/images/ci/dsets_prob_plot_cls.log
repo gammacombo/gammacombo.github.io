@@ -7,7 +7,7 @@ INFO in PDF_Datasets::initPDF -- PDF initialized
 [#1] INFO:Fitting -- using CPU computation library compiled with -mavx2
 [#1] INFO:Eval -- RooRealVar::setRange(mass) new range named 'unblind0' created with bounds [4360,6360]
 
-[1mGammaCombo 1.0.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
+[1mGammaCombo 1.4.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
 
 loading scanner: plots/scanner/tutorial_dataset_scanner_PDF_Dataset_DatasetsProb_branchingRatio.root
 analysing toys ...
