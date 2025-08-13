@@ -37,7 +37,7 @@ SOLUTION 0:
 
   combination: tutorial5
   title:       2D Gaus & Gaus 1
-  date:        Wed Aug 13 13:23:03 2025
+  date:        Wed Aug 13 19:41:07 2025
   FCN: 1.54028, EDM: 9.27831e-22
   COV quality: 3, status: 0, confirmed: yes
 
@@ -66,4 +66,4 @@ Fit quality: chi2/(nObs-nPar) = 1.54/(3-2), P = 21.5%
 
 saving plot (pdf and other formats) to: plots/pdf/tutorial_tutorial5_a_gaus.pdf
 
-Real time 0:00:00, CP time 0.740
+Real time 0:00:00, CP time 0.700
