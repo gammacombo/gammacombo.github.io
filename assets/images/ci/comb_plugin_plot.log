@@ -37,11 +37,11 @@ OneMinusClPlot::Draw() : DEBUG : Scanner 0 (2D Gaus & Gaus 1) - Fill: 1001, Colo
 OneMinusClPlot::Draw() : DEBUG : Scanner 1 (2D Gaus & Gaus 1) - Fill: 1001, Color: 592
 CONFIDENCE INTERVALS for combination tutorial5
 
-a_gaus = [   0.90,    1.56] (   1.20 -   0.30 +   0.36) @0.68CL, Plugin
+a_gaus = [   0.99,    1.46] (   1.20 -   0.21 +   0.26) @0.68CL, Plugin
 
-a_gaus = [   0.40,    1.87] (   1.20 -   0.80 +   0.67) @0.95CL, Plugin
+a_gaus = [   0.81,    1.97] (   1.20 -   0.39 +   0.77) @0.95CL, Plugin
 
-a_gaus = [   0.42,    1.87] (   1.20 -   0.78 +   0.67) @1.00CL, Plugin
+a_gaus = [   0.81,    1.97] (   1.20 -   0.39 +   0.77) @1.00CL, Plugin
 
 
 
@@ -50,4 +50,4 @@ Fit quality: chi2/(nObs-nPar) = 1.54/(3-2), P = 21.5%
 
 saving plot (pdf and other formats) to: plots/pdf/tutorial_tutorial5_a_gaus_plugin.pdf
 
-Real time 0:00:00, CP time 0.520
+Real time 0:00:00, CP time 0.530
