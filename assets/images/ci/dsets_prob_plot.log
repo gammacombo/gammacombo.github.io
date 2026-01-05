@@ -14,8 +14,6 @@ analysing toys ...
   5% [==                                                ] 10% [=====                                             ] 15% [=======                                           ] 20% [==========                                        ] 25% [============                                      ] 30% [===============                                   ] 35% [=================                                 ] 40% [====================                              ] 45% [======================                            ] 50% [=========================                         ] 55% [===========================                       ] 60% [==============================                    ] 65% [================================                  ] 70% [===================================               ] 75% [=====================================             ] 80% [========================================          ] 85% [==========================================        ] 90% [=============================================     ] 95% [===============================================   ]100% [==================================================]                                                          Best fit at: scanVar  = 1.0281e-07 with Chi2Min: -651.621
 Computing CL values based on test statistic decision
 Using 2-sided test statistic
-OneMinusClPlot::Draw() : DEBUG : Number of scanners: 1
-OneMinusClPlot::Draw() : DEBUG : Scanner 0 (default) - Fill: 1001, Color: 592
 CONFIDENCE INTERVALS for combination PDF_Dataset
 
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
@@ -40,4 +38,4 @@ branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsProb (boundary scan)
 Dataset Scan Done
 saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_branchingRatio.pdf
 
-Real time 0:00:00, CP time 0.220
+Real time 0:00:00, CP time 0.230

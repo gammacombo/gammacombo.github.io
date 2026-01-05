@@ -15,8 +15,6 @@ loading scanner: plots/scanner/tutorial_scanner_tutorial5_a_gaus.root
 loading scanner: plots/scanner/tutorial_scanner_tutorial5_Plugin_a_gaus.root
 Computing CL values based on test statistic decision
 Using 2-sided test statistic
-OneMinusClPlot::Draw() : DEBUG : Number of scanners: 1
-OneMinusClPlot::Draw() : DEBUG : Scanner 0 (2D Gaus & Gaus 1) - Fill: 1001, Color: 592
 CONFIDENCE INTERVALS for combination tutorial5
 
 a_gaus = [   0.74,    1.66] (   1.20 -   0.46 +   0.46) @0.68CL, Prob
@@ -32,16 +30,13 @@ a_gaus = [  -2.50,    2.50] @1.00CL, Prob (boundary scan)
 
 Fit quality: chi2/(nObs-nPar) = 1.54/(3-2), P = 21.5%
 
-OneMinusClPlot::Draw() : DEBUG : Number of scanners: 2
-OneMinusClPlot::Draw() : DEBUG : Scanner 0 (2D Gaus & Gaus 1) - Fill: 1001, Color: 592
-OneMinusClPlot::Draw() : DEBUG : Scanner 1 (2D Gaus & Gaus 1) - Fill: 1001, Color: 592
 CONFIDENCE INTERVALS for combination tutorial5
 
-a_gaus = [   0.99,    1.46] (   1.20 -   0.21 +   0.26) @0.68CL, Plugin
+a_gaus = [   0.85,    1.71] (   1.20 -   0.35 +   0.51) @0.68CL, Plugin
 
-a_gaus = [   0.81,    1.97] (   1.20 -   0.39 +   0.77) @0.95CL, Plugin
+a_gaus = [   0.81,    1.76] (   1.20 -   0.39 +   0.56) @0.95CL, Plugin
 
-a_gaus = [   0.81,    1.97] (   1.20 -   0.39 +   0.77) @1.00CL, Plugin
+a_gaus = [   0.78,    1.77] (   1.20 -   0.42 +   0.57) @1.00CL, Plugin
 
 
 
@@ -50,4 +45,4 @@ Fit quality: chi2/(nObs-nPar) = 1.54/(3-2), P = 21.5%
 
 saving plot (pdf and other formats) to: plots/pdf/tutorial_tutorial5_a_gaus_plugin.pdf
 
-Real time 0:00:00, CP time 0.530
+Real time 0:00:00, CP time 0.540
