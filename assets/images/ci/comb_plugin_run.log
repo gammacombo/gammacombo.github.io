@@ -124,7 +124,7 @@ saving plot (pdf and other formats) to: plots/pdf/p_values97_a_gaus.pdf
 saving plot (pdf and other formats) to: plots/pdf/p_values98_a_gaus.pdf
 saving plot (pdf and other formats) to: plots/pdf/p_values99_a_gaus.pdf
 saving plot (pdf and other formats) to: plots/pdf/p_values100_a_gaus.pdf
-fit prob of best-fit point (1.17488): (20.0+/-17.9)%
+fit prob of best-fit point (1.12489): (20.0+/-17.9)%
 CONFIDENCE INTERVALS for combination tutorial5
 
 saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_UID1_0.317300.pdf
@@ -133,11 +133,11 @@ saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_inte
 saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_Graph0_0.045500.pdf
 saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_Graph0_0.002700.pdf
 saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_Graph0_0.002700.pdf
-a_gaus = [   0.85,    1.71] (   1.20 -   0.35 +   0.51) @0.68CL, Plugin
+a_gaus = [   0.77,    1.63] (   1.20 -   0.43 +   0.43) @0.68CL, Plugin
 
-a_gaus = [   0.81,    1.76] (   1.20 -   0.39 +   0.56) @0.95CL, Plugin
+a_gaus = [   0.37,    1.97] (   1.20 -   0.83 +   0.77) @0.95CL, Plugin
 
-a_gaus = [   0.78,    1.77] (   1.20 -   0.42 +   0.57) @1.00CL, Plugin
+a_gaus = [   0.36,    1.97] (   1.20 -   0.84 +   0.77) @1.00CL, Plugin
 
 
 
@@ -168,4 +168,4 @@ Fit quality: chi2/(nObs-nPar) = 1.54/(3-2), P = 21.5%
 
 saving plot (pdf and other formats) to: plots/pdf/tutorial_tutorial5_a_gaus_plugin.pdf
 
-Real time 0:00:06, CP time 6.810
+Real time 0:00:06, CP time 6.850
