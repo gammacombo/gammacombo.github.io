@@ -4,7 +4,7 @@ INFO in PDF_Datasets::initPDF -- PDF initialized
 [#1] INFO:Minimization --  Including the following constraint terms in minimization: (norm_constant_constraint)
 [#1] INFO:Minimization -- The global observables are not defined , normalize constraints with respect to the parameters (Nbkg,branchingRatio,exponent,mean,norm_constant,sigma)
 [#1] INFO:Fitting -- RooAbsPdf::fitTo(mass_model) fixing normalization set for coefficient determination to observables in data
-[#1] INFO:Fitting -- using CPU computation library compiled with -mavx2
+[#1] INFO:Fitting -- using CPU computation library compiled with -mavx512
 [#1] INFO:Eval -- RooRealVar::setRange(mass) new range named 'unblind0' created with bounds [4360,6360]
 
 [1mGammaCombo 1.4.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
@@ -46,15 +46,16 @@ CONFIDENCE INTERVALS for combination PDF_Dataset
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-branchingRatio = [0.000000016, 0.000000253] (0.000000103 -0.000000087 +0.000000150) @0.68CL, DatasetsPlugin
+branchingRatio = [-0.00000001, 0.00000023] (0.00000010 -0.00000011 +0.00000013) @0.68CL, DatasetsPlugin
 
-branchingRatio = [-0.00000001, 0.00000026] (0.00000010 -0.00000011 +0.00000016) @0.95CL, DatasetsPlugin
+branchingRatio = [-0.00000001, 0.00000028] (0.00000010 -0.00000011 +0.00000018) @0.95CL, DatasetsPlugin
 
-branchingRatio = [-0.00000001, 0.00000026] (0.00000010 -0.00000011 +0.00000016) @1.00CL, DatasetsPlugin
-
+branchingRatio = [-0.00000001, 0.00000029] (0.00000010 -0.00000011 +0.00000019) @1.00CL, DatasetsPlugin
 
 
+
+
+branchingRatio = [  -0.00,    0.00] @0.68CL, DatasetsPlugin (boundary scan)
 
 branchingRatio = [  -0.00,    0.00] @0.95CL, DatasetsPlugin (boundary scan)
 
