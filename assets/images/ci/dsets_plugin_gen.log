@@ -34,15 +34,29 @@ analysing toys ...
  95%
 100%
 Best fit at: scanVar  = 1.0281e-07 with Chi2Min: -651.621
+=============== Global Minimum (2*-Log(Likelihood)) is: -651.621
+=============== Bkg minimum (2*-Log(Likelihood)) is: -651.059
+MethodDatasetsPluginScan::scan1d_plugin() : starting ... with 20 scanpoints...
+  5%
+ 10%
+ 15%
+ 20%
+ 25%
+ 30%
+ 35%
+ 40%
+ 45%
+ 50%
+ 55%
+ 60%
+ 65%
+ 70%
+ 75%
+ 80%
+ 85%
+ 90%
+ 95%
+100%
+Dataset Scan Done
 
- *** Break *** segmentation violation
- Generating stack trace...
- 0x00007f4dd7c453e5 in MethodPluginScan::constructorHelper(MethodProbScan*) at /usr/include/c++/13/bits/shared_ptr_base.h:1463 from /code/build/libGammaComboCore.so
- 0x00007f4dd7c45790 in MethodPluginScan::MethodPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/include/PDF_Datasets.h:78 from /code/build/libGammaComboCore.so
- 0x00007f4dd7c20398 in MethodDatasetsPluginScan::MethodDatasetsPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/src/MethodDatasetsPluginScan.cpp:59 (discriminator 1) from /code/build/libGammaComboCore.so
- 0x00007f4dd7becf24 in GammaComboEngine::scanDataSet() at /code/core/src/GammaComboEngine.cpp:2290 from /code/build/libGammaComboCore.so
- 0x00007f4dd7bf4754 in GammaComboEngine::run() at /code/core/src/GammaComboEngine.cpp:2366 from /code/build/libGammaComboCore.so
- 0x000056524363f936 in <unknown> from bin/tutorial_dataset
- 0x00007f4dd64eed90 in <unknown> from /lib/x86_64-linux-gnu/libc.so.6
- 0x00007f4dd64eee40 in __libc_start_main + 0x80 from /lib/x86_64-linux-gnu/libc.so.6
- 0x000056524363fc85 in <unknown> from bin/tutorial_dataset
+Real time 0:00:01, CP time 1.390
