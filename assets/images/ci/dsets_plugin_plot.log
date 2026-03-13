@@ -17,12 +17,12 @@ analysing toys ...
 
  *** Break *** segmentation violation
  Generating stack trace...
- 0x00007f97f57753e5 in MethodPluginScan::constructorHelper(MethodProbScan*) at /usr/include/c++/13/bits/shared_ptr_base.h:1463 from /code/build/libGammaComboCore.so
- 0x00007f97f5775790 in MethodPluginScan::MethodPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/include/PDF_Datasets.h:78 from /code/build/libGammaComboCore.so
- 0x00007f97f5750398 in MethodDatasetsPluginScan::MethodDatasetsPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/src/MethodDatasetsPluginScan.cpp:59 (discriminator 1) from /code/build/libGammaComboCore.so
- 0x00007f97f571d068 in GammaComboEngine::scanDataSet() at /code/core/src/GammaComboEngine.cpp:2308 from /code/build/libGammaComboCore.so
- 0x00007f97f5724754 in GammaComboEngine::run() at /code/core/src/GammaComboEngine.cpp:2366 from /code/build/libGammaComboCore.so
- 0x000055fb0933b936 in <unknown> from bin/tutorial_dataset
- 0x00007f97f401ed90 in <unknown> from /lib/x86_64-linux-gnu/libc.so.6
- 0x00007f97f401ee40 in __libc_start_main + 0x80 from /lib/x86_64-linux-gnu/libc.so.6
- 0x000055fb0933bc85 in <unknown> from bin/tutorial_dataset
+ 0x00007ff758bd3095 in MethodPluginScan::constructorHelper(MethodProbScan*) at /usr/include/c++/13/bits/shared_ptr_base.h:1463 from /code/build/libGammaComboCore.so
+ 0x00007ff758bd3440 in MethodPluginScan::MethodPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/include/PDF_Datasets.h:78 from /code/build/libGammaComboCore.so
+ 0x00007ff758bae068 in MethodDatasetsPluginScan::MethodDatasetsPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/src/MethodDatasetsPluginScan.cpp:59 (discriminator 1) from /code/build/libGammaComboCore.so
+ 0x00007ff758b7adf8 in GammaComboEngine::scanDataSet() at /code/core/src/GammaComboEngine.cpp:2259 from /code/build/libGammaComboCore.so
+ 0x00007ff758b822b4 in GammaComboEngine::run() at /code/core/src/GammaComboEngine.cpp:2317 from /code/build/libGammaComboCore.so
+ 0x00005622ce5cb936 in <unknown> from bin/tutorial_dataset
+ 0x00007ff757480d90 in <unknown> from /lib/x86_64-linux-gnu/libc.so.6
+ 0x00007ff757480e40 in __libc_start_main + 0x80 from /lib/x86_64-linux-gnu/libc.so.6
+ 0x00005622ce5cbc85 in <unknown> from bin/tutorial_dataset
