@@ -32,11 +32,11 @@ Fit quality: chi2/(nObs-nPar) = 1.54/(3-2), P = 21.5%
 
 CONFIDENCE INTERVALS for combination tutorial5
 
-a_gaus = [   0.92,    1.52] (   1.20 -   0.28 +   0.32) @0.68CL, Plugin
+a_gaus = [   0.74,    1.45] (   1.20 -   0.46 +   0.25) @0.68CL, Plugin
 
-a_gaus = [   0.76,    1.92] (   1.20 -   0.44 +   0.72) @0.95CL, Plugin
+a_gaus = [   0.70,    1.62] (   1.20 -   0.50 +   0.42) @0.95CL, Plugin
 
-a_gaus = [   0.73,    1.92] (   1.20 -   0.47 +   0.72) @1.00CL, Plugin
+a_gaus = [   0.68,    1.62] (   1.20 -   0.52 +   0.42) @1.00CL, Plugin
 
 
 
