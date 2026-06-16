@@ -4,7 +4,7 @@ INFO in PDF_Datasets::initPDF -- PDF initialized
 [#1] INFO:Minimization --  Including the following constraint terms in minimization: (norm_constant_constraint)
 [#1] INFO:Minimization -- The global observables are not defined , normalize constraints with respect to the parameters (Nbkg,branchingRatio,exponent,mean,norm_constant,sigma)
 [#1] INFO:Fitting -- RooAbsPdf::fitTo(mass_model) fixing normalization set for coefficient determination to observables in data
-[#1] INFO:Fitting -- using CPU computation library compiled with -mavx2
+[#1] INFO:Fitting -- using CPU computation library compiled with -mavx512
 [#1] INFO:Eval -- RooRealVar::setRange(mass) new range named 'unblind0' created with bounds [4360,6360]
 
 [1mGammaCombo 1.4.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
@@ -17,12 +17,12 @@ analysing toys ...
 
  *** Break *** segmentation violation
  Generating stack trace...
- 0x00007f4dc708a3e5 in MethodPluginScan::constructorHelper(MethodProbScan*) at /usr/include/c++/13/bits/shared_ptr_base.h:1463 from /code/build/libGammaComboCore.so
- 0x00007f4dc708a790 in MethodPluginScan::MethodPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/include/PDF_Datasets.h:78 from /code/build/libGammaComboCore.so
- 0x00007f4dc7065398 in MethodDatasetsPluginScan::MethodDatasetsPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/src/MethodDatasetsPluginScan.cpp:59 (discriminator 1) from /code/build/libGammaComboCore.so
- 0x00007f4dc7032068 in GammaComboEngine::scanDataSet() at /code/core/src/GammaComboEngine.cpp:2308 from /code/build/libGammaComboCore.so
- 0x00007f4dc7039754 in GammaComboEngine::run() at /code/core/src/GammaComboEngine.cpp:2366 from /code/build/libGammaComboCore.so
- 0x0000556130d0d936 in <unknown> from bin/tutorial_dataset
- 0x00007f4dc591ed90 in <unknown> from /lib/x86_64-linux-gnu/libc.so.6
- 0x00007f4dc591ee40 in __libc_start_main + 0x80 from /lib/x86_64-linux-gnu/libc.so.6
- 0x0000556130d0dc85 in <unknown> from bin/tutorial_dataset
+ 0x00007f9883327445 in MethodPluginScan::constructorHelper(MethodProbScan*) at /usr/include/c++/13/bits/shared_ptr_base.h:1463 from /code/build/libGammaComboCore.so
+ 0x00007f98833277f0 in MethodPluginScan::MethodPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/include/PDF_Datasets.h:78 from /code/build/libGammaComboCore.so
+ 0x00007f98833023f8 in MethodDatasetsPluginScan::MethodDatasetsPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/src/MethodDatasetsPluginScan.cpp:59 (discriminator 1) from /code/build/libGammaComboCore.so
+ 0x00007f98832cf0c8 in GammaComboEngine::scanDataSet() at /code/core/src/GammaComboEngine.cpp:2312 from /code/build/libGammaComboCore.so
+ 0x00007f98832d67b4 in GammaComboEngine::run() at /code/core/src/GammaComboEngine.cpp:2370 from /code/build/libGammaComboCore.so
+ 0x00005559682f5936 in <unknown> from bin/tutorial_dataset
+ 0x00007f9881bbbd90 in <unknown> from /lib/x86_64-linux-gnu/libc.so.6
+ 0x00007f9881bbbe40 in __libc_start_main + 0x80 from /lib/x86_64-linux-gnu/libc.so.6
+ 0x00005559682f5c85 in <unknown> from bin/tutorial_dataset
