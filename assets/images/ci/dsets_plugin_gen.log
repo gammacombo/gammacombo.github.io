@@ -37,12 +37,12 @@ Best fit at: scanVar  = 1.0281e-07 with Chi2Min: -651.621
 
  *** Break *** segmentation violation
  Generating stack trace...
- 0x00007f15395b4445 in MethodPluginScan::constructorHelper(MethodProbScan*) at /usr/include/c++/13/bits/shared_ptr_base.h:1463 from /code/build/libGammaComboCore.so
- 0x00007f15395b47f0 in MethodPluginScan::MethodPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/include/PDF_Datasets.h:78 from /code/build/libGammaComboCore.so
- 0x00007f153958f3f8 in MethodDatasetsPluginScan::MethodDatasetsPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/src/MethodDatasetsPluginScan.cpp:59 (discriminator 1) from /code/build/libGammaComboCore.so
- 0x00007f153955bf84 in GammaComboEngine::scanDataSet() at /code/core/src/GammaComboEngine.cpp:2294 from /code/build/libGammaComboCore.so
- 0x00007f15395637b4 in GammaComboEngine::run() at /code/core/src/GammaComboEngine.cpp:2370 from /code/build/libGammaComboCore.so
- 0x0000560526962936 in <unknown> from bin/tutorial_dataset
- 0x00007f1537e48d90 in <unknown> from /lib/x86_64-linux-gnu/libc.so.6
- 0x00007f1537e48e40 in __libc_start_main + 0x80 from /lib/x86_64-linux-gnu/libc.so.6
- 0x0000560526962c85 in <unknown> from bin/tutorial_dataset
+ 0x00007fcfec181445 in MethodPluginScan::constructorHelper(MethodProbScan*) at /usr/include/c++/13/bits/shared_ptr_base.h:1463 from /code/build/libGammaComboCore.so
+ 0x00007fcfec1817f0 in MethodPluginScan::MethodPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/include/PDF_Datasets.h:78 from /code/build/libGammaComboCore.so
+ 0x00007fcfec15c3f8 in MethodDatasetsPluginScan::MethodDatasetsPluginScan(MethodProbScan*, PDF_Datasets*, OptParser const*) at /code/core/src/MethodDatasetsPluginScan.cpp:59 (discriminator 1) from /code/build/libGammaComboCore.so
+ 0x00007fcfec128f84 in GammaComboEngine::scanDataSet() at /code/core/src/GammaComboEngine.cpp:2294 from /code/build/libGammaComboCore.so
+ 0x00007fcfec1307b4 in GammaComboEngine::run() at /code/core/src/GammaComboEngine.cpp:2370 from /code/build/libGammaComboCore.so
+ 0x00005599c4451936 in <unknown> from bin/tutorial_dataset
+ 0x00007fcfeaa15d90 in <unknown> from /lib/x86_64-linux-gnu/libc.so.6
+ 0x00007fcfeaa15e40 in __libc_start_main + 0x80 from /lib/x86_64-linux-gnu/libc.so.6
+ 0x00005599c4451c85 in <unknown> from bin/tutorial_dataset
