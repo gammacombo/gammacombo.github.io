@@ -5,13 +5,13 @@
 [#1] INFO:Minimization -- The global observables are not defined , normalize constraints with respect to the parameters (Nbkg,branchingRatio,exponent,mean,norm_constant,sigma)
 [#1] INFO:Fitting -- RooAbsPdf::fitTo(mass_model) fixing normalization set for coefficient determination to observables in data
 [#1] INFO:Fitting -- using generic CPU library compiled with no vectorizations
-[#1] INFO:Fitting -- Creation of NLL object took 9.66553 ms
+[#1] INFO:Fitting -- Creation of NLL object took 9.77222 ms
 [#1] INFO:Fitting -- RooAddition::defaultErrorLevel(nll_mass_model_data) Summation contains a RooNLLVar, using its error level
 [#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: activating const optimization
 [#1] INFO:Minimization -- [fitFCN] No discrete parameters, performing continuous minimization only
 Minuit2Minimizer: Minimize with max-calls 2000 convergence for edm < 1 strategy 1
 Info in <Minuit2>: MnSeedGenerator Computing seed using NumericalGradient calculator
-Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 1.63247 ms
+Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 1.63052 ms
 Info in <Minuit2>: MnSeedGenerator Initial state: FCN =      -324.1313427 Edm =       1.713124064 NCalls =     19
 Info in <Minuit2>: MnSeedGenerator Initial state  
   Minimum value : -324.1313427
@@ -28,10 +28,10 @@ Info in <Minuit2>: VariableMetricBuilder    0 - FCN =      -324.1313427 Edm =   
 Info in <Minuit2>: VariableMetricBuilder    1 - FCN =      -325.7777466 Edm =     0.02911618445 NCalls =     30
 Info in <Minuit2>: VariableMetricBuilder    2 - FCN =      -325.8098566 Edm =    0.000785156238 NCalls =     40
 Info in <Minuit2>: VariableMetricBuilder    3 - FCN =      -325.8106474 Edm =   4.130927327e-06 NCalls =     49
-Info in <Minuit2>: MnHesse Done after 1.71357 ms
+Info in <Minuit2>: MnHesse Done after 1.71084 ms
 Info in <Minuit2>: VariableMetricBuilder After Hessian
 Info in <Minuit2>: VariableMetricBuilder    4 - FCN =      -325.8106474 Edm =   4.101376297e-06 NCalls =     72
-Info in <Minuit2>: VariableMetricBuilder Stop iterating after 4.12024 ms
+Info in <Minuit2>: VariableMetricBuilder Stop iterating after 4.05986 ms
 Minuit2Minimizer : Valid minimum - status = 0
 FVAL  = -325.810647411212358
 Edm   = 4.1013762970932017e-06
@@ -41,7 +41,7 @@ branchingRatio	  = 1.02858e-07	 +/-  1.40162e-07	(limited)
 exponent	  = -0.000977126	 +/-  2.70034e-05	(limited)
 norm_constant	  = 1.04986e-08	 +/-  5.00018e-10	(limited)
 Info in <Minuit2>: Minuit2Minimizer::Hesse Using max-calls 2000
-Info in <Minuit2>: MnHesse Done after 1.73936 ms
+Info in <Minuit2>: MnHesse Done after 1.74212 ms
 Info in <Minuit2>: Minuit2Minimizer::Hesse Hesse is valid - matrix is accurate
 [#1] INFO:Minimization -- RooAbsMinimizerFcn::setOptimizeConst: deactivating const optimization
 Info in <TCanvas::Print>: pdf file plots/pdf/data_and_fit_in_workspace.pdf has been created
