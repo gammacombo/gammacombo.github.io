@@ -133,11 +133,11 @@ saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_inte
 saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_UID1_0.045500.pdf
 saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_UID1_0.002700.pdf
 saving plot (pdf and other formats) to: plots/pdf/tutorial5_a_gaus_boundary_interpolation_Plugin_UID1_0.002700.pdf
-a_gaus = [   0.83,    1.65] (   1.20 -   0.37 +   0.45) @0.68CL, Plugin
+a_gaus = [   0.84,    1.58] (   1.20 -   0.36 +   0.38) @0.68CL, Plugin
 
-a_gaus = [   0.78,    1.87] (   1.20 -   0.42 +   0.67) @0.95CL, Plugin
+a_gaus = [   0.41,    1.72] (   1.20 -   0.79 +   0.52) @0.95CL, Plugin
 
-a_gaus = [   0.77,    1.87] (   1.20 -   0.43 +   0.67) @1.00CL, Plugin
+a_gaus = [   0.41,    1.72] (   1.20 -   0.79 +   0.52) @1.00CL, Plugin
 
 
 
