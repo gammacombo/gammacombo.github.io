@@ -5,7 +5,7 @@ INFO in PDF_Datasets::initPDF -- PDF initialized
 [#1] INFO:Minimization -- The global observables are not defined , normalize constraints with respect to the parameters (Nbkg,branchingRatio,exponent,mean,norm_constant,sigma)
 [#1] INFO:Fitting -- RooAbsPdf::fitTo(mass_model) fixing normalization set for coefficient determination to observables in data
 [#1] INFO:Fitting -- using generic CPU library compiled with no vectorizations
-[#1] INFO:Fitting -- Creation of NLL object took 5.93955 ms
+[#1] INFO:Fitting -- Creation of NLL object took 5.91336 ms
 [#1] INFO:Eval -- RooRealVar::setRange(mass) new range named 'unblind0' created with bounds [4360,6360]
 
 [1mGammaCombo 1.4.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
@@ -47,11 +47,12 @@ CONFIDENCE INTERVALS for combination PDF_Dataset
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
 MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
-branchingRatio = [-0.000000013, 0.000000177] (0.000000103 -0.000000116 +0.000000074) @0.68CL, DatasetsPlugin
+MethodAbsScan::calcCLintervals(): Low number of scan points. Using linear interpolation.
+branchingRatio = [0.000000035, 0.000000195] (0.000000103 -0.000000068 +0.000000092) @0.68CL, DatasetsPlugin
 
-branchingRatio = [-0.00000001, 0.00000029] (0.00000010 -0.00000011 +0.00000019) @0.95CL, DatasetsPlugin
+branchingRatio = [-0.00000001, 0.00000034] (0.00000010 -0.00000011 +0.00000024) @0.95CL, DatasetsPlugin
 
-branchingRatio = [-0.00000001, 0.00000029] (0.00000010 -0.00000011 +0.00000019) @1.00CL, DatasetsPlugin
+branchingRatio = [-0.00000001, 0.00000034] (0.00000010 -0.00000011 +0.00000024) @1.00CL, DatasetsPlugin
 
 
 
@@ -65,4 +66,4 @@ branchingRatio = [  -0.00,    0.00] @1.00CL, DatasetsPlugin (boundary scan)
 Dataset Scan Done
 saving plot (pdf and other formats) to: plots/pdf/tutorial_dataset_branchingRatio_plugin.pdf
 
-Real time 0:00:00, CP time 0.250
+Real time 0:00:00, CP time 0.260

@@ -5,7 +5,7 @@ INFO in PDF_Datasets::initPDF -- PDF initialized
 [#1] INFO:Minimization -- The global observables are not defined , normalize constraints with respect to the parameters (Nbkg,branchingRatio,exponent,mean,norm_constant,sigma)
 [#1] INFO:Fitting -- RooAbsPdf::fitTo(mass_model) fixing normalization set for coefficient determination to observables in data
 [#1] INFO:Fitting -- using generic CPU library compiled with no vectorizations
-[#1] INFO:Fitting -- Creation of NLL object took 5.61492 ms
+[#1] INFO:Fitting -- Creation of NLL object took 5.89958 ms
 [#1] INFO:Eval -- RooRealVar::setRange(mass) new range named 'unblind0' created with bounds [4360,6360]
 
 [1mGammaCombo 1.4.0 [0m-- All rights reserved under GPLv3, http://www.gnu.org/licenses/gpl.txt
