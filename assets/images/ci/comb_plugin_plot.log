@@ -32,11 +32,11 @@ Fit quality: chi2/(nObs-nPar) = 1.54/(3-2), P = 21.5%
 
 CONFIDENCE INTERVALS for combination tutorial5
 
-a_gaus = [   0.98,    1.39] (   1.20 -   0.22 +   0.19) @0.68CL, Plugin
+a_gaus = [   0.90,    1.56] (   1.20 -   0.30 +   0.36) @0.68CL, Plugin
 
-a_gaus = [   0.98,    1.87] (   1.20 -   0.22 +   0.67) @0.95CL, Plugin
+a_gaus = [   0.84,    1.61] (   1.20 -   0.36 +   0.41) @0.95CL, Plugin
 
-a_gaus = [   0.98,    1.87] (   1.20 -   0.22 +   0.67) @1.00CL, Plugin
+a_gaus = [   0.82,    1.62] (   1.20 -   0.38 +   0.42) @1.00CL, Plugin
 
 
 
@@ -45,4 +45,4 @@ Fit quality: chi2/(nObs-nPar) = 1.54/(3-2), P = 21.5%
 
 saving plot (pdf and other formats) to: plots/pdf/tutorial_tutorial5_a_gaus_plugin.pdf
 
-Real time 0:00:00, CP time 0.340
+Real time 0:00:00, CP time 0.370
